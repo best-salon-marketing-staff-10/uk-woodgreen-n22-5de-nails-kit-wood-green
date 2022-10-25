@@ -12,19 +12,19 @@ export default function TimeSchedule(){
                     </div>
                     <div className="time-schedule-description">
                             <div className="time-schedule-description">
-                                {thongTinTiem1.workingTimeMon}
+                                {thongTinTiem2.workingTimeMon}
                                 <br />
-                                {thongTinTiem1.workingTimeTue}
+                                {thongTinTiem2.workingTimeTue}
                                 <br />
-                                {thongTinTiem1.workingTimeWed}
+                                {thongTinTiem2.workingTimeWed}
                                 <br />
-                                {thongTinTiem1.workingTimeThu}
+                                {thongTinTiem2.workingTimeThu}
                                 <br />
-                                {thongTinTiem1.workingTimeFri}
+                                {thongTinTiem2.workingTimeFri}
                                 <br />
-                                {thongTinTiem1.workingTimeSat}
+                                {thongTinTiem2.workingTimeSat}
                                 <br />
-                                {thongTinTiem1.workingTimeSun}
+                                {thongTinTiem2.workingTimeSun}
                             </div>   
                     </div>
                 </div>

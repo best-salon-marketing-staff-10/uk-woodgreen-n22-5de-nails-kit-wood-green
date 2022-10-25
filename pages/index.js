@@ -19,8 +19,10 @@ import TabletFooter from '/pages/Components/footer/tablet-footer'
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
 import { thongTinTiem1 } from '/pages/core/info';
 import { thongTinTiem2 } from '/pages/core/info';
+import { schemaData } from '/pages/core/info'
 
 export default function Home() {
+  //Không sử dụng chuột phải
   if (process.browser){
   document.oncontextmenu = new Function("return false;");
   }
@@ -34,7 +36,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           
           <link rel="icon" href={thongTinTiem1.icon} />
-          <meta name="geo.position" content={thongTinTiem1.geoPositionContent} />
+          <meta name="geo.position" content={thongTinTiem2.geoPositionContent} />
           <meta name="geo.placename" content={thongTinTiem2.geoPlaceNameContent} />
           <meta name="geo.region" content={thongTinTiem1.geoRegionContent} />
           <link rel="canonical" href={thongTinTiem1.websiteTiem} />
@@ -49,8 +51,15 @@ export default function Home() {
           <meta property='og:image:width' content='1164' />
           <meta property='og:image:height' content='1032' />
           <meta property="og:type" content='website' />
+
+          <meta name="google-site-verification" content="qnij4LzYIxd0ns7ww7gjQ2f9USw-fOXSH_LU8dN-5Uk" />
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          />
         </Head>
-        
+          
           <div className="page-container">
             <div className="page-nav-bar">
               <div className="page-top-bar">

@@ -18,6 +18,7 @@ import MobileFooter from '/pages/Components/footer/mobile-footer'
 import TabletFooter from '/pages/Components/footer/tablet-footer'
 import { thongTinTiem1 } from '/pages/core/info';
 import { thongTinTiem2 } from '/pages/core/info';
+import { schemaData } from '/pages/core/info'
 
 
 export default function AboutUs() {
@@ -34,7 +35,7 @@ export default function AboutUs() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
           
         <link rel="icon" href={thongTinTiem1.icon} />
-        <meta name="geo.position" content={thongTinTiem1.geoPositionContent} />
+        <meta name="geo.position" content={thongTinTiem2.geoPositionContent} />
         <meta name="geo.placename" content={thongTinTiem2.geoPlaceNameContent} />
         <meta name="geo.region" content={thongTinTiem1.geoRegionContent} />
         <link rel="canonical" href={thongTinTiem1.websiteTiem} />
@@ -49,6 +50,10 @@ export default function AboutUs() {
         <meta property='og:image:width' content='1164' />
         <meta property='og:image:height' content='1032' />
         <meta property="og:type" content='website' />
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          />
       </Head>
 
         <div className="page-container">

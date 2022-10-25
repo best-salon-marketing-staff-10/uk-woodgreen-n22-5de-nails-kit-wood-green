@@ -56,13 +56,15 @@
 */
   /*Chống copy nội dung trang, tải ảnh....
   */
+    
   html{
-    -youbkit-touch-callout: none; /* iOS Safari */
-    -youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none;       /* IE 10+ and Edge */
+    -youbkit-touch-callout: none; 
+    -youbkit-user-select: none;   
+    -moz-user-select: none; 
+    -ms-user-select: none;      
     user-select: none;   
   }
+    
   /*
   */
   img{

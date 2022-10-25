@@ -16,28 +16,56 @@ const thongTinTiem1 = {
     areaTiem : "Exeter",
     districtTiem :"Exeter",
     cityTiem : "Exeter",
+    addressRegionTiem: "EX",
     postcodeTiem : "EX4 3HY",
     countryTiem : "United Kingdom",
+    addressCountryTiem : "UK",
   
     phoneTiem : "01392 431988",
     
     linkBookingMapTiem : "https://bit.ly/3R7tdI2",
     linkToMapTiem: "https://g.page/r/CTMvNCantXjkEBA",
     linkAppBookingTiem: "https://bit.ly/3NRmHSW",
-  
-    geoPositionContent : "50.721704169283726, -3.533617680425276",
+
+    priceRange : "££",
+
+    geoLatitude : 50.721704169283726,
+    geoLongitude : -3.533617680425276,
+    
     geoRegionContent : "GB-BIR",
-  
+
+    schemaType: "NailSalon",
+
+    personReviewAuthorName: "Karolina Hamilton",
+    ratingValue: "4.6",
+    bestRating: "5",
+
     websiteTiem:"https://princess-nails-exeter.web.app",
+    //Website tiệm KO có dấu / ở cuối
+
+    serviceListTiem: "https://princess-nails-exeter.web.app/services",
   
       //Thời gian làm việc của tiệm
-      workingTimeMon : "Monday: 09:00–19:00",
-      workingTimeTue : "Tuesday: 09:00–19:00",
-      workingTimeWed : "Wednesday: 09:00–19:00",
-      workingTimeThu : "Thursday: 09:00–19:00",
-      workingTimeFri : "Friday: 09:00–19:00",
-      workingTimeSat : "Saturday: 09:00–19:00",
-      workingTimeSun : "Sunday: 10:00–16:00",
+      monOpeningTime : "09:00",
+      monClosingTime : "19:00",
+
+      tueOpeningTime : "09:00",
+      tueClosingTime : "19:00",
+
+      wedOpeningTime : "09:00",
+      wedClosingTime : "19:00",
+
+      thuOpeningTime : "09:00",
+      thuClosingTime : "19:00",
+
+      friOpeningTime : "09:00",
+      friClosingTime : "19:00",
+
+      satOpeningTime : "09:00",
+      satClosingTime : "19:00",
+
+      sunOpeningTime : "10:00",
+      sunClosingTime : "16:00",
   
       //iframe map
     iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.908327148308!2d-3.53587108404891!3d50.72163987566774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sprincess%20nails%20exeter!5e0!3m2!1sen!2suk!4v1657275156584!5m2!1sen!2suk",
@@ -205,7 +233,7 @@ const thongTinTiem1 = {
     footerImageMapPointerIcon : "/images/icons/icon-google-maps-pointer.png",
 
     //Phần footer copyright
-    websiteLink : "https://speedcustomer.com",
+    websiteLink : "https://bestsalonmarketing.com",
   
   
     //Các nút trên website, hiện chưa áp dụng
@@ -277,8 +305,30 @@ const thongTinTiem1 = {
   
     //Xử lý gọi cho tiệm
     callTiem :`tel:${thongTinTiem1.phoneTiem}`,
+
+    geoPositionContent : thongTinTiem1.geoLatitude + ", " + thongTinTiem1.geoLongitude,
+
+    imageLinkTiem1 : thongTinTiem1.websiteTiem + "/images/desktop-nail-salon-happy-customer-1.jpg",
+    imageLinkTiem2 : thongTinTiem1.websiteTiem + "/images/nail-extension-5.jpg",
+    imageLinkTiem3 : thongTinTiem1.websiteTiem + "/images/desktop-nail-salon-3.jpg",
+
+    workingTimeMon : "Monday: " + thongTinTiem1.monOpeningTime + "–" + thongTinTiem1.monClosingTime,
+
+    workingTimeTue : "Tuesday: " + thongTinTiem1.tueOpeningTime + "–" + thongTinTiem1.tueClosingTime,
+
+    workingTimeWed : "Wednesday: " + thongTinTiem1.wedOpeningTime + "–" + thongTinTiem1.wedClosingTime,
+
+    workingTimeThu : "Thursday: " + thongTinTiem1.thuOpeningTime + "–" + thongTinTiem1.thuClosingTime,
+
+    workingTimeFri : "Friday: " + thongTinTiem1.friOpeningTime + "–" + thongTinTiem1.friClosingTime,
+    
+    workingTimeSat : "Saturday: " + thongTinTiem1.satOpeningTime + "–" + thongTinTiem1.satClosingTime,
+
+    workingTimeSun : "Sunday: " + thongTinTiem1.sunOpeningTime + "–" + thongTinTiem1.sunClosingTime,
+
+    logoSchema : thongTinTiem1.websiteTiem + thongTinTiem1.logoTiem,
   
-    metaDescriptionContent : "We are one of the best nail salons in" + " " + thongTinTiem1.areaTiem + " " + "Please come and give us a try, we guarantee that we will be able to bring you satisfaction",
+    metaDescriptionContent : "We are one of the best nail salons in" + " " + thongTinTiem1.areaTiem + ". " + "Please come and give us a try, we guarantee that we will be able to bring you satisfaction",
   
     geoPlaceNameContent : thongTinTiem1.areaTiem + ", " + thongTinTiem1.countryTiem,
   
@@ -471,6 +521,100 @@ const thongTinTiem1 = {
     footerImageMapPointerIconAlt : "",
     
   };
+
+  //Dữ liệu schema
+  const schemaData = {
+    "@context": "http://schema.org",
+    "@type": thongTinTiem1.schemaType,
+    "name": thongTinTiem1.tenTiem,
+    "image": [
+      thongTinTiem2.imageLinkTiem1,
+      thongTinTiem2.imageLinkTiem2,
+      thongTinTiem2.imageLinkTiem3,
+     ],
+    "telephone": thongTinTiem1.phoneTiem,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": thongTinTiem1.addressTiemLine1,
+      "addressLocality": thongTinTiem1.areaTiem,
+      "addressRegion": thongTinTiem1.addressRegionTiem,
+      "postalCode": thongTinTiem1.postcodeTiem,
+      "addressCountry": thongTinTiem1.addressCountryTiem,
+    },
+    "currenciesAccepted" : "GBP",
+    "paymentAccepted": ["cash", "credit card"],
+    "logo": thongTinTiem2.logoSchema,
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": thongTinTiem1.ratingValue,
+        "bestRating": thongTinTiem1.bestRating,
+      },
+      "author": {
+        "@type": "Person",
+        "name": thongTinTiem1.personReviewAuthorName,
+      },
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": thongTinTiem1.geoLatitude,
+      "longitude": thongTinTiem1.geoLongitude,
+    },
+    "url": thongTinTiem1.websiteTiem,
+    "priceRange": thongTinTiem1.priceRange,
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": thongTinTiem1.monOpeningTime,
+        "closes": thongTinTiem1.monClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": thongTinTiem1.tueOpeningTime,
+        "closes": thongTinTiem1.tueClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Wednesday",
+        "opens": thongTinTiem1.wedOpeningTime,
+        "closes": thongTinTiem1.wedClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": thongTinTiem1.thuOpeningTime,
+        "closes": thongTinTiem1.thuClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": thongTinTiem1.friOpeningTime,
+        "closes": thongTinTiem1.friClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": thongTinTiem1.satOpeningTime,
+        "closes": thongTinTiem1.satClosingTime,
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": thongTinTiem1.sunOpeningTime,
+        "closes": thongTinTiem1.sunClosingTime,
+      },
+    ],
+    "hasMap": thongTinTiem1.linkToMapTiem,
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Book an appointment or asking question",
+      "telephone": thongTinTiem1.phoneTiem,
+    },
+    "description" : thongTinTiem2.metaDescriptionContent,
+  }
 
     
   
@@ -935,6 +1079,7 @@ const thongTinTiem1 = {
   
   export { thongTinTiem1 };
   export { thongTinTiem2 };
+  export { schemaData };
   export { serviceList1 };
   export { serviceList2 };
   export { serviceList3 };
