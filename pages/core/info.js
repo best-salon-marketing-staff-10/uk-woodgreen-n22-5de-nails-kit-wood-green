@@ -328,7 +328,7 @@ const thongTinTiem1 = {
 
     logoSchema : thongTinTiem1.websiteTiem + thongTinTiem1.logoTiem,
   
-    metaDescriptionContent : "We are one of the best nail salons in" + " " + thongTinTiem1.areaTiem + ". " + "Please come and give us a try, we guarantee that we will be able to bring you satisfaction",
+    metaDescriptionContent : "One of the best nail salons in" + " " + thongTinTiem1.areaTiem + ". " + "Friendly staff and excellent service. Treat yourself or enjoy with friends and family",
   
     geoPlaceNameContent : thongTinTiem1.areaTiem + ", " + thongTinTiem1.countryTiem,
   
