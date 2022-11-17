@@ -29,19 +29,24 @@ const thongTinTiem1 = {
 
     priceRange : "££",
 
+    //Mở Google Maps tiệm, zoom sát vào, chuột phải
     geoLatitude : 50.721704169283726,
     geoLongitude : -3.533617680425276,
     
-    geoRegionContent : "GB-BIR",
+    //Tra trong trang https://www.geonames.org/GB/administrative-division-united-kingdom.html
+    geoRegionContent : "GB-DEV",
 
     schemaType: "NailSalon",
 
+    //Cần đổi tên khách
     personReviewAuthorName: "Karolina Hamilton",
+    //Xem điểm review trung bình của tiệm là bao nhiêu
     ratingValue: "4.6",
     bestRating: "5",
 
-    websiteTiem:"https://princess-nails-exeter.web.app",
     //Website tiệm KO có dấu / ở cuối
+    websiteTiem:"https://princess-nails-exeter.web.app",
+    
 
     serviceListTiem: "https://princess-nails-exeter.web.app/services",
   
@@ -398,17 +403,17 @@ const thongTinTiem1 = {
     //service-7.js
     mainService7Description : "It’s time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
   
-    mobileCarouselImage1Alt : "",
-    mobileCarouselImage2Alt : "",
-    mobileCarouselImage3Alt : "",
+    mobileCarouselImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileCarouselImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileCarouselImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
-    tabletCarouselImage1Alt : "",
-    tabletCarouselImage2Alt : "",
-    tabletCarouselImage3Alt : "",
+    tabletCarouselImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletCarouselImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletCarouselImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
-    desktopCarouselImage1Alt : "",
-    desktopCarouselImage2Alt : "",
-    desktopCarouselImage3Alt : "",
+    desktopCarouselImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopCarouselImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopCarouselImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
     LocationImage1Alt : "",
   
@@ -459,25 +464,25 @@ const thongTinTiem1 = {
   
     //Ảnh trang about cho 3 giao diện
   
-    mobileAboutUsImage1Alt : "",
-    mobileAboutUsImage2Alt : "",
-    mobileAboutUsImage3Alt : "",
-    mobileAboutUsImage4Alt : "",
-    mobileAboutUsImage5Alt : "",
+    mobileAboutUsImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileAboutUsImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileAboutUsImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileAboutUsImage4Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    mobileAboutUsImage5Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
-    tabletAboutUsImage1Alt : "",
-    tabletAboutUsImage2Alt : "",
-    tabletAboutUsImage3Alt : "",
-    tabletAboutUsImage4Alt : "",
-    tabletAboutUsImage5Alt : "",
+    tabletAboutUsImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletAboutUsImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletAboutUsImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletAboutUsImage4Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    tabletAboutUsImage5Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
-    desktopAboutUsImage1Alt : "",
-    desktopAboutUsImage2Alt : "",
-    desktopAboutUsImage3Alt : "",
+    desktopAboutUsImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopAboutUsImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopAboutUsImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
   
-    desktopAboutUsDongVienImage1Alt : "",
-    desktopAboutUsDongVienImage2Alt : "",
-    desktopAboutUsDongVienImage3Alt : "",
+    desktopAboutUsDongVienImage1Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopAboutUsDongVienImage2Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    desktopAboutUsDongVienImage3Alt : "nail salon" + " " + thongTinTiem1.areaTiem,
 
     //offer.js
     offerTitle : "Our Offers and Benefits",
@@ -505,20 +510,20 @@ const thongTinTiem1 = {
     contentOurPolicyDescription5 : "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
 
     //Ảnh customer review - customer-review.js
-    cusReviewImage1Alt : "",
-    cusReviewImage2Alt : "",
-    cusReviewImage3Alt : "",
-    cusReviewImage4Alt : "",
-    cusReviewImage5Alt : "",
+    cusReviewImage1Alt : "customer review",
+    cusReviewImage2Alt : "customer review",
+    cusReviewImage3Alt : "customer review",
+    cusReviewImage4Alt : "customer review",
+    cusReviewImage5Alt : "customer review",
     
     //Thanh Mobile Bottom Nav
-    BottomNavButton1IconAlt : "",
-    BottomNavButton2IconAlt : "",
-    BottomNavButton3IconAlt : "",
+    BottomNavButton1IconAlt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    BottomNavButton2IconAlt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    BottomNavButton3IconAlt : "nail salon" + " " + thongTinTiem1.areaTiem,
     
     //Ảnh Footer
-    footerImagePhoneIconAlt : "",
-    footerImageMapPointerIconAlt : "",
+    footerImagePhoneIconAlt : "nail salon" + " " + thongTinTiem1.areaTiem,
+    footerImageMapPointerIconAlt : "nail salon" + " " + thongTinTiem1.areaTiem,
     
   };
 
