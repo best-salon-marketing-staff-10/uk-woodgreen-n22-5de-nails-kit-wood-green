@@ -1,5 +1,6 @@
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { imageAlt } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
+import { images } from '/pages/core/info';
 
 export default function NhanManh2(){
     return(
@@ -8,14 +9,14 @@ export default function NhanManh2(){
                         <div className="nhan-manh-content">
                             <div className="nhan-manh-content-wrapper">
                                 <div className="nhan-manh-content-header">
-                                    {thongTinTiem2.NhanhManh2Heading}
+                                    {pageContent.section5Heading}
                                 </div>
                                 <div className="nhan-manh-content-description">
-                                    {thongTinTiem2.NhanhManh2Content}
+                                    {pageContent.section5Description}
                                 </div>
                             </div>
                             <div>
-                                <img alt={thongTinTiem2.NhanhManh2Image1Alt} src={thongTinTiem1.NhanhManh2Image1} />
+                                <img alt={imageAlt.section5Image1Alt} src={images.section5Image1} />
                             </div>
                         </div>
                     </div>

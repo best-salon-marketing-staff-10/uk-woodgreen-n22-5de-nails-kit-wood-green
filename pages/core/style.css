@@ -81,7 +81,8 @@
   .services-list-3,
   .services-list-4,
   .services-list-5,
-  .services-list-6{
+  .services-list-6,
+  .services-list-7{
     text-decoration: none;
     color: #8C96A8;
   }
@@ -249,7 +250,6 @@
 
   /*Các list dịch vụ mà ko hiển thị
   */
-  .services-list-6,
   .offers,
   .customer-review{
     display: none;

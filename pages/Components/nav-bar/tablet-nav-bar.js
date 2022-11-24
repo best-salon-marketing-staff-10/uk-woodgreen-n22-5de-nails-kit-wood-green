@@ -8,11 +8,11 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import ButtonFullListOfOurServices from '/pages/Components/buttons/button-full-list-of-our-services.js';
 import { NavDropdown } from 'react-bootstrap';
 import LogoNav from '/pages/Components/logo-nav/logo-nav';
-import { thongTinTiem1 } from '/pages/core/info';
-import { thongTinTiem2 } from '/pages/core/info';
+import { menu } from '/pages/core/info';
+import { serviceCategory } from '/pages/core/info';
 
 
-export default function MobileNavBar(){
+export default function TabletNavBar(){
     return(
         <>
             <Head>
@@ -40,78 +40,78 @@ export default function MobileNavBar(){
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu1}>
+                                        <Link href={menu.linkToMainMenu1}>
                                             <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu1}
+                                                {menu.mainMenu1}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu4}>
+                                        <Link href={menu.linkToMainMenu4}>
                                             <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu4}
+                                                {menu.mainMenu4}
                                             </a>
                                         </Link>
                                         <div className="nav-bar-services-sub-category">
                                         <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-1">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService1}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory1}>
                                                         <a className="nav-bar-link-a"> 
-                                                            {thongTinTiem1.mainService1}
+                                                            {serviceCategory.serviceCategory1}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-2">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService2}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService2}
+                                                            {serviceCategory.serviceCategory2}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div>    
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-3">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService3}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory3}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService3}
+                                                            {serviceCategory.serviceCategory3}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-4">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService4}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService4}
+                                                            {serviceCategory.serviceCategory4}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-5">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService5}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory5}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService5}
+                                                            {serviceCategory.serviceCategory5}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-6">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService6}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService6}
+                                                            {serviceCategory.serviceCategory6}
                                                         </a>
                                                     </Link>
                                                 </div>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-7">
-                                                    <Link href={thongTinTiem1.tabletLinkTomainService7}>
+                                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
                                                         <a className="nav-bar-link-a">
-                                                            {thongTinTiem1.mainService7}
+                                                            {serviceCategory.serviceCategory7}
                                                         </a>
                                                     </Link>
                                                 </div>
@@ -119,23 +119,23 @@ export default function MobileNavBar(){
                                         </div>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu3}>
+                                        <Link href={menu.linkToMainMenu3}>
                                             <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu3}
+                                                {menu.mainMenu3}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu2}>
+                                        <Link href={menu.linkToMainMenu2}>
                                             <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu2}
+                                                {menu.mainMenu2}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={thongTinTiem1.linkTomainMenu5}>
+                                        <Link href={menu.linkToMainMenu5}>
                                             <a className="nav-bar-link-a">
-                                                {thongTinTiem1.mainMenu5}
+                                                {menu.mainMenu5}
                                             </a>
                                         </Link>
                                     </div>
