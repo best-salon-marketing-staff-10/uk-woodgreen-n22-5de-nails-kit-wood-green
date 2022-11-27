@@ -12,7 +12,6 @@ import Service4 from '/pages/services/service-4.js';
 import Service5 from '/pages/services/service-5.js';
 import Service6 from '/pages/services/service-6.js';
 import Service7 from '/pages/services/service-7';
-import { Carousel } from 'react-bootstrap';
 import NhanManh1 from '/pages/Components/dong-vien/nhan-manh-1';
 import NhanManh2 from '/pages/Components/dong-vien/nhan-manh-2';
 import NhanManh3 from '/pages/Components/dong-vien/nhan-manh-3';

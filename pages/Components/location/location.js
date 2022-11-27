@@ -6,6 +6,7 @@ import { images } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
 import { changedInfo } from '/pages/core/info';
 import { processedInfo } from '/pages/core/info';
+import { pageContent } from '/pages/core/info';
 
 export default function Location(){
 
@@ -16,10 +17,9 @@ export default function Location(){
                     <img alt={imageAlt.LocationImage1Alt} src={images.LocationImage1} />
                 </div>
                 <div className="location-text">
-                    
-                    <div className="location-title">
-                        LOCATION
-                    </div>
+                    <h2 className="location-title">
+                        {pageContent.locationHeading}
+                    </h2>
                     <div className="location-header">
                         {changedInfo.businessAddressLevel2}
                     </div>

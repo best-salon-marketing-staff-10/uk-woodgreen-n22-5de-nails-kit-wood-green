@@ -17,9 +17,6 @@ import { serviceCategory } from '/pages/core/info';
 export default function DesktopNavBar(){
     return(
         <>
-            <Head>
-                
-            </Head>
             <div className="nav-bar">
                 <LogoNav />
                 <div className="nav-bar-menu">
@@ -41,106 +38,108 @@ export default function DesktopNavBar(){
                             </Offcanvas.Header>
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <div className="nav-bar-main-category">
+                                    <h2 className="nav-bar-main-category">
                                         <Link href={menu.linkToMainMenu1}>
-                                            <a className="nav-bar-link-a">
+                                            <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu1}
                                             </a>
                                         </Link>
-                                    </div>
+                                    </h2>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu4}>
-                                            <a className="nav-bar-link-a">
-                                                {menu.mainMenu4}
-                                            </a>
-                                        </Link>
+                                        <h2>
+                                            <Link href={menu.linkToMainMenu4}>
+                                                <a className="nav-bar-link-main-menu">
+                                                    {menu.mainMenu4}
+                                                </a>
+                                            </Link>
+                                        </h2>
                                         <div className="nav-bar-services-sub-category">
-                                        <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-1">
+                                            <div className="nav-bar-services-sub-category-details">
+                                                <h3 className="services-list-1">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory1}>
-                                                        <a className="nav-bar-link-a"> 
+                                                        <a className="nav-bar-link-service-category"> 
                                                             {serviceCategory.serviceCategory1}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-2">
+                                                <h3 className="services-list-2">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory2}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory2}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div>    
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-3">
+                                                <h3 className="services-list-3">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory3}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory3}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-4">
+                                                <h3 className="services-list-4">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory4}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory4}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-5">
+                                                <h3 className="services-list-5">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory5}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory5}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-6">
+                                                <h3 className="services-list-6">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory6}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
-                                                <div className="services-list-7">
+                                                <h3 className="services-list-7">
                                                     <Link href={serviceCategory.desktopLinkToServiceCategory7}>
-                                                        <a className="nav-bar-link-a">
+                                                        <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory7}
                                                         </a>
                                                     </Link>
-                                                </div>
+                                                </h3>
                                             </div> 
                                         </div>
                                     </div>
-                                    <div className="nav-bar-main-category">
+                                    <h2 className="nav-bar-main-category">
                                         <Link href={menu.linkToMainMenu3}>
-                                            <a className="nav-bar-link-a">
+                                            <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu3}
                                             </a>
                                         </Link>
-                                    </div>
-                                    <div className="nav-bar-main-category">
+                                    </h2>
+                                    <h2 className="nav-bar-main-category">
                                         <Link href={menu.linkToMainMenu2}>
-                                            <a className="nav-bar-link-a">
+                                            <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu2}
                                             </a>
                                         </Link>
-                                    </div>
-                                    <div className="nav-bar-main-category">
+                                    </h2>
+                                    <h2 className="nav-bar-main-category">
                                         <Link href={menu.linkToMainMenu5}>
-                                            <a className="nav-bar-link-a">
+                                            <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu5}
                                             </a>
                                         </Link>
-                                    </div>
+                                    </h2>
                                     <div className="button">
                                         <ButtonFullListOfOurServices />
                                     </div>

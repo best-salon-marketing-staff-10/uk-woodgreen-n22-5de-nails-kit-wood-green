@@ -27,106 +27,106 @@ export default function TabletFooter(){
                 </div>
                 <div className="footer-navigation">
                     <div className="footer-navigation-item-group-1">
-                        <div className="footer-navigation-item">
+                        <h2 className="footer-navigation-item">
                             <Link href={menu.linkToMainMenu1}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu1}
                                 </a>
                             </Link>
-                        </div>
+                        </h2>
                     
                         <div className="footer-navigation-item">
-                            <div className="footer-navigation-item-services">
+                            <h2 className="footer-navigation-item-services">
                                 <Link href={menu.linkToMainMenu4}>
                                     <a className="footer-navigation-item">
                                         {menu.mainMenu4}
                                     </a>
                                 </Link>
-                            </div>
+                            </h2>
                             <div className="footer-navigation-item-detail-services">
-                                <div className="footer-navigation-item-detail-services">
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory1}>
                                         <a className="services-list-1">
                                             {serviceCategory.serviceCategory1}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory2}>
                                         <a className="services-list-2">
                                             {serviceCategory.serviceCategory2}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory3}>
                                         <a className="services-list-3">
                                             {serviceCategory.serviceCategory3}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory4}>
                                         <a className="services-list-4">
                                             {serviceCategory.serviceCategory4}
                                         </a>
                                     </Link>
-                                </div>
-                                <div 
+                                </h3>
+                                <h3 
                                 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory5}>
                                         <a className="services-list-5">
                                             {serviceCategory.serviceCategory5}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory6}>
                                         <a className="services-list-6">
                                             {serviceCategory.serviceCategory6}
                                         </a>
                                     </Link>
-                                </div>
-                                <div className="footer-navigation-item-detail-services">
+                                </h3>
+                                <h3 className="footer-navigation-item-detail-services">
                                     <Link href={serviceCategory.tabletLinkToServiceCategory7}>
                                         <a className="services-list-7">
                                             {serviceCategory.serviceCategory7}
                                         </a>
                                     </Link>
-                                </div>
+                                </h3>
                             </div>
                         </div>
                     </div>
                     <div className="footer-navigation-item-group-2">
-                        <div className="footer-navigation-item">
+                        <h2 className="footer-navigation-item">
                             <Link href={menu.linkToMainMenu3}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu3}
                                 </a>
                             </Link>
-                        </div>
-                        <div className="footer-navigation-item">
+                        </h2>
+                        <h2 className="footer-navigation-item">
                             <Link href={menu.linkToMainMenu2}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu2}
                                 </a>
                             </Link>
-                        </div>
-                        <div className="footer-navigation-item">
+                        </h2>
+                        <h2 className="footer-navigation-item">
                             <Link href={menu.linkToMainMenu5}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu5}
                                 </a>
                             </Link>
-                        </div>
+                        </h2>
                         <div className="footer-navigation-item">
-                            <div className="footer-navigation-item">
-                            <Link href="/">
+                            <h2 className="footer-navigation-item">
+                                <Link href="/">
                                     <a className="footer-navigation-item">
                                         {menu.mainMenu6}
                                     </a>
                                 </Link>
-                            </div>
+                            </h2>
                             <div className="footer-navigation-item-details">
                             <Link href={processedInfo.callBusiness}>
                                     <div className="footer-navigation-item-details-1">

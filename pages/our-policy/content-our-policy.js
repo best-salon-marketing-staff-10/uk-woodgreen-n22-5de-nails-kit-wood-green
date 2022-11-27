@@ -7,37 +7,37 @@ export default function ContentOurPolicy(){
     return(
         <>
             <div className="content-our-policy">
-                <div className="content-heading-h1">
+                <h1 className="content-heading-h1">
                     {pageContent.contentOurPolicyHeadingMain}
-                </div>
+                </h1>
                 <div className="content-block">
-                    <div className="content-heading-h2">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall1}
-                    </div>
+                    </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription1}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall2}
-                    </div>
+                    </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription2}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall3}
-                    </div>
+                    </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription3}
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall4}
-                    </div>
+                    </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription41}
                         <a className="content-description-link-a" href={processedInfo.callBusiness}>
@@ -47,9 +47,9 @@ export default function ContentOurPolicy(){
                     </div>
                 </div>
                 <div className="content-block">
-                    <div className="content-heading-h2">
+                    <h2 className="content-heading-h2">
                         {pageContent.contentOurPolicyHeadingSmall5}
-                    </div>
+                    </h2>
                     <div className="content-description">
                         {pageContent.contentOurPolicyDescription5}
                     </div>

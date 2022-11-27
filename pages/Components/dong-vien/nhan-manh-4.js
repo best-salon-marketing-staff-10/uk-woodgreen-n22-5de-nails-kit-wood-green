@@ -10,9 +10,9 @@ export default function NhanManh4(){
             <div className="nhan-manh-4-background">
                 <div className="nhan-manh-4-content-1">
                     <div className="nhan-manh-4-content-1-wrapper">
-                        <div className="nhan-manh-4-content-header">
+                        <h2 className="nhan-manh-4-content-header">
                             {pageContent.section7Heading}
-                        </div>
+                        </h2>
                         <div className="nhan-manh-4-content-description">
                             {pageContent.section7Description}
                         </div>
@@ -31,9 +31,9 @@ export default function NhanManh4(){
                     </div>
                     <div className="nhan-manh-4-content-2-wrapper">
                         <div className="nhan-manh-4-content-wrapper">
-                            <div className="nhan-manh-4-content-header-4">
+                            <h2 className="nhan-manh-4-content-header-4">
                                 {pageContent.section8Heading}
-                            </div>
+                            </h2>
                             <div className="nhan-manh-4-content-description">
                                 {pageContent.section8Description}
                             </div>

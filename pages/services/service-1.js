@@ -7,6 +7,7 @@ import { imageAlt } from '/pages/core/info';
 import { serviceCategory } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
+
 export default function Service1(){
     return(
         <>

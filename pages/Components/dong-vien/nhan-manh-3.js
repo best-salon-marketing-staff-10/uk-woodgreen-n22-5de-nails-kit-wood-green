@@ -8,14 +8,14 @@ export default function NhanManh3(){
             <div className="nhan-manh-3-background">
                 <div className="nhan-manh-content">
                     <div className="nhan-manh-content-wrapper">
-                        <div className="nhan-manh-content-header">
+                        <h2 className="nhan-manh-content-header">
                             {pageContent.section6Heading}
-                        </div>
+                        </h2>
                         <div className="nhan-manh-content-description">
-                        {pageContent.section6Description}
+                            {pageContent.section6Description}
                         </div>
                         <div>
-                        <img alt={imageAlt.section6Image1Alt} src={images.section6Image1} />
+                            <img alt={imageAlt.section6Image1Alt} src={images.section6Image1} />
                         </div>
                     </div>
                 </div>

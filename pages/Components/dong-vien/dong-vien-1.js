@@ -12,9 +12,9 @@ export default function DongVien1(){
             <div className="dong-vien">
                 <div className="dong-vien-content-text">
                         <div className="dong-vien-title">
-                            <h1 className="title-1">
+                            <h2 className="title-1">
                                 {pageContent.section1Heading}
-                            </h1>
+                            </h2>
                             <div className="divider">
                                 <NavDropdown.Divider /> 
                             </div>

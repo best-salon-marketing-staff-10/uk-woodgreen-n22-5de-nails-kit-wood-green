@@ -21,6 +21,9 @@ imageAlt - Là các thẻ Alt cho ảnh, đã vào công thức
 headerInput - Là những thông tin đc dùng để nhập vào mục Header
 schemaInput - Là những thông tin đc dùng để nhập vào mục schemaData
 schemaData - Là những thông tin sẽ hiển thị lên Schema của website
+  Giờ mở cửa của tiệm khai báo lên Schema
+  Nếu ko mở ngày nào thì xóa ngày đó đi trong mục openingHoursSpecification
+
 pageContent - Chứa tất cả các nội dung của website trừ phần Button
 button - Tất cả về các nút, nội dung của nút, link nút sẽ dẫn đến khi click vào
 images - Đường link của tất cả các ảnh trên website
@@ -81,6 +84,7 @@ const businessOpeningTimeInput = {
 
 const processedBusinessOpeningTime = {
   //Thời gian làm việc của tiệm hiển thị trong file time-schedule.js
+  //Đóng cửa ngày nào chỉnh sửa ngày đó thành Closed
   workingTimeMon : "Monday: " + businessOpeningTimeInput.monOpeningTime + "–" + businessOpeningTimeInput.monClosingTime,
   workingTimeTue : "Tuesday: " + businessOpeningTimeInput.tueOpeningTime + "–" + businessOpeningTimeInput.tueClosingTime,
   workingTimeWed : "Wednesday: " + businessOpeningTimeInput.wedOpeningTime + "–" + businessOpeningTimeInput.wedClosingTime,
@@ -99,12 +103,15 @@ const changedInfo = {
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
+
+  //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
   businessAddressDivisionCode: "DEV",
 
   businessPostCode: "EX4 3HY",
   
 
   businessPhoneNumber: "01392 431988",
+
   //Website tiệm KO có dấu / ở cuối
   businessWebsite: "https://princess-nails-exeter.web.app",
 
@@ -118,7 +125,8 @@ const changedInfo = {
   geoLatitude: 50.721704169283726,
   geoLongitude: -3.533617680425276,
 
-  metaGoogleSiteVerification: "qnij4LzYIxd0ns7ww7gjQ2f9USw-fOXSH_LU8dN-5Uk",
+  //Code xác minh của website trên Google Search
+  metaGoogleSiteVerification: "",
 
   //iframe map
   iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.908327148308!2d-3.53587108404891!3d50.72163987566774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sprincess%20nails%20exeter!5e0!3m2!1sen!2suk!4v1657275156584!5m2!1sen!2suk",
@@ -327,6 +335,8 @@ const processedInfo = {
   businessAddress: changedInfo.businessAddressLevel1 + ", " + changedInfo.businessAddressLevel2 + ", " + changedInfo.businessPostCode,
 
   callBusiness: `tel:${changedInfo.businessPhoneNumber}`,
+
+  //Link booking thực sự của tiệm sửa ở đây
   businessBookingLink: changedInfo.linkBookingApp,
 
   //offer.js
@@ -391,26 +401,26 @@ const schemaInput = {
   schemaTelephone: changedInfo.businessPhoneNumber,
 
   //Thời gian làm việc của tiệm
-  schemaMonOpeningTime : businessOpeningTimeInput.monOpeningTime,
-  schemaMonClosingTime : businessOpeningTimeInput.monClosingTime,
+  schemaMonOpeningTime: businessOpeningTimeInput.monOpeningTime,
+  schemaMonClosingTime: businessOpeningTimeInput.monClosingTime,
 
-  schemaTueOpeningTime : businessOpeningTimeInput.tueOpeningTime,
-  schemaTueClosingTime : businessOpeningTimeInput.tueClosingTime,
+  schemaTueOpeningTime: businessOpeningTimeInput.tueOpeningTime,
+  schemaTueClosingTime: businessOpeningTimeInput.tueClosingTime,
 
-  schemaWedOpeningTime : businessOpeningTimeInput.wedOpeningTime,
-  schemaWedClosingTime : businessOpeningTimeInput.wedClosingTime,
+  schemaWedOpeningTime: businessOpeningTimeInput.wedOpeningTime,
+  schemaWedClosingTime: businessOpeningTimeInput.wedClosingTime,
 
-  schemaThuOpeningTime : businessOpeningTimeInput.thuOpeningTime,
-  schemaThuClosingTime : businessOpeningTimeInput.thuClosingTime,
+  schemaThuOpeningTime: businessOpeningTimeInput.thuOpeningTime,
+  schemaThuClosingTime: businessOpeningTimeInput.thuClosingTime,
 
-  schemaFriOpeningTime : businessOpeningTimeInput.friOpeningTime,
-  schemaFriClosingTime : businessOpeningTimeInput.friClosingTime,
+  schemaFriOpeningTime: businessOpeningTimeInput.friOpeningTime,
+  schemaFriClosingTime: businessOpeningTimeInput.friClosingTime,
 
-  schemaSatOpeningTime : businessOpeningTimeInput.satOpeningTime,
-  schemaSatClosingTime : businessOpeningTimeInput.satClosingTime,
+  schemaSatOpeningTime: businessOpeningTimeInput.satOpeningTime,
+  schemaSatClosingTime: businessOpeningTimeInput.satClosingTime,
 
-  schemaSunOpeningTime : businessOpeningTimeInput.sunOpeningTime,
-  schemaSunClosingTime : businessOpeningTimeInput.sunClosingTime,
+  schemaSunOpeningTime: businessOpeningTimeInput.sunOpeningTime,
+  schemaSunClosingTime: businessOpeningTimeInput.sunClosingTime,
 
   //Logo
   schemaLogo : changedInfo.businessWebsite + changedInfo.businessLogo,
@@ -564,14 +574,14 @@ const schemaData = {
   "description" : schemaInput.schemaDescription,
 }
 
-//Nội dung trên trang, ko phải mục Service thì cho vào đây
+//Nội dung trên phần thân trang thì cho vào đây
 const pageContent = {
   //our-story.js
-  ourStoryHeading: "Our story",
+  ourStoryHeading: "Our " + seoKeyword.seoKeyword1 + " story",
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are experienced manicurist and pedicurist",
+  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
@@ -643,6 +653,7 @@ const pageContent = {
   //service-7.js
   serviceCategory7Description : "It’s time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
 
+  locationHeading: "LOCATION",
   timeScheduleHeading: "OPENING HOURS",
   
   copyrightContent: "© Copyright and Powered by Best Salon Marketing",
