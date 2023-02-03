@@ -61,25 +61,25 @@ serviceList
 const businessOpeningTimeInput = {
   //Thời gian làm việc của tiệm
   monOpeningTime : "09:00",
-  monClosingTime : "19:00",
+  monClosingTime : "18:30",
 
   tueOpeningTime : "09:00",
-  tueClosingTime : "19:00",
+  tueClosingTime : "18:30",
 
   wedOpeningTime : "09:00",
-  wedClosingTime : "19:00",
+  wedClosingTime : "18:30",
 
   thuOpeningTime : "09:00",
-  thuClosingTime : "19:00",
+  thuClosingTime : "18:30",
 
   friOpeningTime : "09:00",
-  friClosingTime : "19:00",
+  friClosingTime : "18:30",
 
   satOpeningTime : "09:00",
-  satClosingTime : "19:00",
+  satClosingTime : "18:30",
 
-  sunOpeningTime : "10:00",
-  sunClosingTime : "16:00",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,45 +91,44 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Closed " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
-
 const changedInfo = {
-  businessName: "Princess Nails Exeter",
-  businessAddressLevel1: "95 Fore Street",
-  businessAddressLevel2: "Exeter",
-  businessAddressLevel3: "Devon",
+  businessName: "The Nail Bar",
+  businessAddressLevel1: "69 High St",
+  businessAddressLevel2: "Christchurch",
+  businessAddressLevel3: "Bournemouth",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "DEV",
+  businessAddressDivisionCode: "BCP",
 
-  businessPostCode: "EX4 3HY",
+  businessPostCode: "BH23 1AS",
   
 
-  businessPhoneNumber: "01392 431988",
+  businessPhoneNumber: "+447877889900",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://princess-nails-exeter.web.app",
+  businessWebsite: "",
 
-  linkBookingMap: "https://bit.ly/3R7tdI2",
-  linkBookingApp: "https://bit.ly/3NRmHSW",
-  linkToMap: "https://g.page/r/CTMvNCantXjkEBA",
+  linkBookingMap: "https://www.google.com/maps/reserve/v/default?m=38MclWR4VvU&source=pa&gei=NNC_Y77iKsuQhwPRuJTgDA&sourceurl=https://www.google.com/maps/preview/place?authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!1m13!1s0x487b3be564ae0f33:0xefd0e510be92638a!3m8!1m3!1d207.73032196449594!2d-3.0628144!3d53.5561067!3m2!1i2133!2i1077!4f13.1!4m2!3d53.556167!4d-3.0627748!12m4!2m3!1i360!2i120!4i8!13m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!14m2!1sM9C_Y-CiMKjv4-EPyIia0AY!7e81!15m76!1m25!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m14!3b1!4b1!5b1!6b1!9b1!12b1!13b1!14b1!15b1!17b1!20b1!21b1!22b0!25b0!2b1!5m5!2b1!3b1!5b1!6b1!7b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m4!1m2!3b1!5b1!4b1!89b1!113b1!21m28!1m6!1m2!1i0!2i0!2m2!1i458!2i1077!1m6!1m2!1i2083!2i0!2m2!1i2133!2i1077!1m6!1m2!1i0!2i0!2m2!1i2133!2i20!1m6!1m2!1i0!2i1057!2m2!1i2133!2i1077!22m1!1e81!30m1!3b1!34m2!7b1!10b1!37i629!39sCC%2BNails%2B%2526%2BSpa%26q%3DCC%2BNails%2B%2526%2BSpa&hl=en-US",
+  linkBookingApp: "",
+  linkToMap: "https://goo.gl/maps/XTJdjs8FKN1swLTH7",
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải
-  geoLatitude: 50.721704169283726,
-  geoLongitude: -3.533617680425276,
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải  
+  geoLatitude: 50.7337416093408,
+  geoLongitude: -1.7761649676105957,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
   //iframe map
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.908327148308!2d-3.53587108404891!3d50.72163987566774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43af0c1af77%3A0xe478b5a726342f33!2sprincess%20nails%20exeter!5e0!3m2!1sen!2suk!4v1657275156584!5m2!1sen!2suk",
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.8286074853419!2d-1.7761284225136251!3d50.73370871760787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739f2541bbddd7%3A0xcadfdc1122a8e899!2sThe%20Nail%20Bar!5e0!3m2!1sen!2sus!4v1675048635909!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
   ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
@@ -337,7 +336,7 @@ const processedInfo = {
   callBusiness: `tel:${changedInfo.businessPhoneNumber}`,
 
   //Link booking thực sự của tiệm sửa ở đây
-  businessBookingLink: changedInfo.linkBookingApp,
+  businessBookingLink: changedInfo.linkBookingMap,
 
   //offer.js
   offerTitle : "Our Offers and Benefits",
@@ -431,13 +430,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Karolina Hamilton",
+  schemaPersonReviewAuthorName: "",
   //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "4.6",
+  schemaRatingValue: "",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.721704169283726,
-  schemaLongitude: -3.533617680425276,
+  schemaGeoLatitude: 50.7337416093408,
+  schemaLongitude: -1.7761649676105957,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -842,9 +841,9 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "30",
+    service1Price : "35",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
     service2Price : "25",
@@ -852,49 +851,47 @@ const images = {
   
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "36",
+    service3Price : "42",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+ 
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "30",
+    service4Price : "32",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-    
+  
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "28",
+    service5Price : "38",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "20",
+    service6Price : "28",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
     service7Time : "45 mins",
-    service7Price : "40",
+    service7Price : "45",
     service7Description : "Prepare to take all the compliments you’re lately getting. We’ve just added a new extension option for our clients: Pink and White! Chances are you know someone who loves the look, because it’s been trending for a while now. Now, with our " + seoKeyword.seoKeyword2 +" making it possible to infuse this unconventional color into your look – we’ve opened up an entire new world of possibilities.",
-  
+
     service8 : "Infill Pink & White",
     service8Time : "45 mins",
     service8Price : "35",
     service8Description : "",
-  
+
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "40",
+    service9Price : "45",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
-    
-  
     service10 : "Infill Ombre",
     service10Time : "45 mins",
     service10Price : "35",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "40",
+    service11Price : "30",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -906,10 +903,10 @@ const images = {
     service13Time : "45 mins",
     service13Price : "25",
     service13Description : "",
-  
+
     service14 : "Acrylic Fullset on Feet with normal nail polish",
     service14Time : "45 mins",
-    service14Price : "35",
+    service14Price : "30",
     service14Description : "An acrylic extension on your toes is just the thing to give yourself a little extra pampering. Whether you just want to do something new for your nails or you’ve been looking for an excuse to treat yo-self. This could be a great option for you",
   
     service15 : "Acrylic Infill on Feet with normal nail polish",
@@ -929,7 +926,7 @@ const images = {
   
     service18 : "Take off Powder",
     service18Time : "20 mins",
-    service18Price : "12",
+    service18Price : "10",
     service18Description : "Just take off",
   
     service19 : "Take off Acrylic and Redone a Newset",
@@ -959,17 +956,17 @@ const images = {
   
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "30",
     service24Description : "",
   
     service25 : "BIAB buider gel Infill",
-    service25Time : "30 mins",
-    service25Price : "30",
+    service25Time : "40 mins",
+    service25Price : "25",
     service25Description : "",
 
     service26 : "Long nails extra",
     service26Time : "",
-    service26Price : "5",
+    service26Price : "3",
     service26Description : "",
 
     service27 : "Single Toe Nails",
@@ -979,22 +976,22 @@ const images = {
 
     service28 : "Single nails repair",
     service28Time : "",
-    service28Price : "3",
+    service28Price : "5",
     service28Description : "",
 
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
-    service29Price : "35",
+    service29Price : "40",
     service29Description : "",
 
     service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
     service30Time : "1 hr",
-    service30Price : "40",
+    service30Price : "47",
     service30Description : "",
 
     service31 : "Take off Ombre and Redone Ombre Fullset",
     service31Time : "1 hr",
-    service31Price : "45",
+    service31Price : "40",
     service31Description : "",
 
     service32 : "Dipping Powder SNS infill",
@@ -1022,9 +1019,9 @@ const images = {
     service36Price : "25",
     service36Description : "Take off powder and then do manicure",
 
-    service37 : "Take off colour Powder and Redone a Newset",
+    service37 : "Take off and Redone Colour Powder",
     servicce37Time : "60 mins",
-    service37Price : "45",
+    service37Price : "37",
     service37Description : "",
 
     service38 : "Full set Acrylic French Tip",
@@ -1042,7 +1039,7 @@ const images = {
     service40Price : "45",
     service40Description : "",
     
-    service41 : "Take off Pink & White and Redone a Newset",
+    service41 : "Take off and Renew Pink & White",
     service41Time : "60 mins",
     service41Price : "45",
     service41Description : "",
@@ -1074,29 +1071,179 @@ const images = {
 
     service47 : "Infill Colour Powder",
     service47Time : "45 mins",
-    service47Price : "35",
+    service47Price : "25",
     service47Description : "",
+
+    service48 : "COMBO TAKE OFF GEL COLOUR & COMBO GEL MANICURE & GEL PEDICURE",
+    service48Time : "1 hr 20 mins",
+    service48Price : "65",
+    service48Description : "",
+
+    service49 : "Take off and Renew Acrylic Powder",
+    service49Time : "50 mins",
+    service49Price : "30",
+    service49Description : "",
+
+    service50 : "Take off Gel Colour and Gel Colour Manicure",
+    service50Time : "40 mins",
+    service50Price : "30",
+    service50Description : "",
+
+    service51 : "Single Big Toe Extension",
+    service51Time : "10 mins",
+    service51Price : "5",
+    service51Description : "",
+
+    service52 : "High skill French tips",
+    service52Time : "10 mins",
+    service52Price : "5",
+    service52Description : "",
+
+    service53 : "French tip",
+    service53Time : "10 mins",
+    service53Price : "5",
+    service53Description : "",
+
+    service54 : "TAKE OFF GEL COLOUR & MANICURE (Normal colour)",
+    service54Time : "50 mins ",
+    service54Price : "23",
+    service54Description : "",
+
+    service55 : "Take off and Renew Gel Colour",
+    service55Time : "40 mins",
+    service55Price : "23",
+    service55Description : "",
+
+    service56 : "Take off and Redone BIAB",
+    service56Time : "60 mins",
+    service56Price : "35",
+    service56Description : "",
+
+    service57 : "Take off and Renew Acrylic Powder with Shellac",
+    service57Time : "60 mins",
+    service57Price : "40",
+    service57Description : "",
+
+    service58 : "Acrylic Fullset without Polish",
+    service58Time : "45 mins",
+    service58Price : "32",
+    service58Description : "",
+
+    service59 : "Gel Powder Fullset without Polish",
+    service59Time : "45 mins",
+    service59Price : "35",
+    service59Description : "",
+
+    service60: "Gel Powder Fullset with Shellac",
+    service60Time : "45 mins",
+    service60Price : "45",
+    service60Description : "",
+
+    service61 : "Take off Acrylic and Redone Acrylic Fullset without Polish",
+    service61Time : "60 mins",
+    service61Price : "37",
+    service61Description : "",
+
+    service62 : "Take off Gel Powder and Redone Gel Powder Fullset without Polish",
+    service62Time : "60 mins",
+    service62Price : "40",
+ 
+    service63 : "Take off Gel Powder and Redone Gel Powder Fullset with Polish",
+    service63Time : "60 mins",
+    service63Price : "43",
+    service63Description : "",
+
+    service64 : "Take off Gel Powder and Redone Gel Powder Fullset with Shellac",
+    service64Time : "60 mins",
+    service64Price : "50",
+    service64Description : "",
+
+    service65 : "Acrylic Infill without Polish",
+    service65Time : "45 mins",
+    service65Price : "22",
+    service65Description : "",
+
+    service66 : "Gel Powder Infill without Polish",
+    service66Time : "45 mins",
+    service66Price : "25",
+    service66Description : "",
+
+    service67 : "Full Set Glitter Powder",
+    service67Time : "45 mins",
+    service67Price : "45",
+    service67Description : "",
+
+    service68 : "Infill Glitter Powder",
+    service68Time : "45 mins",
+    service68Price : "35",
+    service68Description : "",
+
+    service69 : "Full Set Permenent white tip",
+    service69Time : "45 mins",
+    service69Price : "35",
+    service69Description : "",
+
+    service70 : "Take off Acrylic + Shellac",
+    service70Time : "60 mins",
+    service70Price : "32",
+    service70Description : "",
+
+    service71 : "Take off Builder gel and Redone a Newset",
+    service71Time : "60 mins ",
+    service71Price : "38",
+    service71Description : "",
+
+    service72 : "Take off Acrylic + Builder gel",
+    service72Time : "60 mins",
+    service72Price : "43",
+    service72Description : "",
+
+    service73 : "Take off Gel Polish",
+    service73Time : "20 mins",
+    service73Price : "8",
+    service73Description : "",
+
+    service74 : "Take off Builder Gel",
+    service74Time : "20 mins",
+    service74Price : "8",
+    service74Description : "",
+
+    service75 : "Take off Acrylic",
+    service75Time : "15 mins",
+    service75Price : "12",
+    service75Description : "",
+
+    service76 : "Gel Powder Infill with Shellac",
+    service76Time : "45 mins",
+    service76Price : "35",
+    service76Description : "",
+
+
+
+
+    
+
     }; 
   
   const serviceList2 = {
-    service1 : "Nail shape with Shellac nails on hand",
+    service1 : "Nail shape with Shellac nails ",
     service1Time : "30 mins",
-    service1Price : "22",
+    service1Price : "25",
     service1Description : "",
-  
+
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "22",
+    service2Price : "20",
     service2Description : "",
   
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
     service3Price : "30",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "35",
+    service4Price : "40",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -1113,10 +1260,10 @@ const images = {
     service7Time : "40 mins",
     service7Price : "25",
     service7Description : "",
-  
+ 
     service8 : "Take off shellac",
     service8Time : "20 mins",
-    service8Price : "8",
+    service8Price : "28",
     service8Description : "Just take off shellac",
 
     service9 : "Take off shellac and Redone Normal Polish on Hand",
@@ -1129,6 +1276,16 @@ const images = {
     service10Price : "20",
     service10Description : "",
 
+    service11 : "Matte top coat",
+    service11Time : "10 mins",
+    service11Price : "3",
+    service11Description : "",
+
+     service12 : "Builder gel",
+     service12Time : "45 mins",
+     service12Price : "35",
+     service12Description :"",
+
   };
   
   const serviceList3 = {
@@ -1136,30 +1293,30 @@ const images = {
     service1Time : "30 mins",
     service1Price : "20",
     service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
-  
+
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "30",
+    service2Price : "35",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-    
-    service3 : "Luxury Pedicure",
-    service3Time : "40 mins",
-    service3Price : "53",
+  
+    service3 : "Gel Colour Luxury Pedicure",
+    service3Time : "45 mins",
+    service3Price : "40",
     service3Description : "Get healthy, happy feet with the help of VOESH's Pedi in a Box Deluxe 4-Step pedicure system. This single-use pedicure kit contains a sea salt soak, sugar scrub, mud masque, and massage butter to detoxify, exfoliate, cleanse, and hydrate your skin. Plus Disposable Pedicure Pro Pack for use at the treatment or you can bring it home.",
-    
+
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "48",
+    service4Price : "45",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-  
+ 
     service5 : "Men's Manicure & Pedicure",
     service5Time : "1 hr 15 mins",
     service5Price : "40",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-  
+
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "15",
+    service6Price : "10",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
   
     service7 : "Shape & paint on toes",
@@ -1216,6 +1373,68 @@ const images = {
     service17Time : "90 mins",
     service17Price : "70",
     service17Description : "Your feet & hand have been longawaiting for rejuvenating pedicure & manicure. Say ahh… to a warm whirlpool soaking with Mineral Herbal Bath. Then a gentle massage and Walnut Husk Liquid Body Lufra exfoliation.While regular pedicure components are tented, a calf massage with the Invigorating Icedancer and steamy towel wrap are added for restoring vitality and energizing the legs. Dry heel are also treated with an all Spice Berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for an ultimate experience",
+
+    service18 : "Massage Chair Experience",
+    service18Time : "30 mins",
+    service18Price : "10",
+    service18Description : "",
+
+    service19 : "VOESH's Deluxe 4-step pedicure system",
+    service19Time : "10 mins",
+    service19Price : "10",
+    service19Description : "",
+
+    service20 : "COMBO LUXURY GEL MANICURE & GEL PEDICURE",
+    service20Time : "1 hr 15 mins",
+    service20Price : "60",
+    service20Description : "",
+
+    service21 : "Peficure",
+    service21Time : "20 mins",
+    service21Price : "15",
+    service21Description : "",
+
+    service22 : "Disposable Pedicure Pro Pack",
+    service22Time : "5 mins",
+    service22Price : "3",
+    service22Description : "",
+
+    service23 : "Gel Colour Luxury Manicure",
+    service23Time : "40 mins",
+    service23Price : "25",
+    service23Description : "",
+
+    service24 : "VIP Deluxe Pedicure",
+    service24Time : "1 hr 5 mins",
+    service24Price : "53",
+    service24Description : "",
+
+    service25 : "Manicure without Polish",
+    service25Time : "30 mins",
+    service25Price : "15",
+    service25Description: "",
+ 
+    service26 : "Pedicure without Polish",
+    service26Time : "45 mins",
+    service26Price : "30",
+    service26Description : "",
+   
+    service27 : "Manicure Take off and Redone Fullset Gel Polish",
+    service27Time : "45 mins",
+    service27Price : "32",
+    service27Description : "",
+
+    service28 : "Pedicure Take off and Redone Fullset Gel Polish",
+    service28Time : "60 mins",
+    service28Price : "42",
+    service28Description : "",
+
+
+
+
+
+
+
   };
   
   const serviceList4 = {
@@ -1249,7 +1468,7 @@ const images = {
     service1Time : "",
     service1Price : "5",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
-  
+
     service2 : "Diamond Crystal x10",
     service2Time : "",
     service2Price : "3",
@@ -1265,14 +1484,45 @@ const images = {
     service4Price : "5",
     service4Description : "",
 
+    service5 : "Nail Art - 4 nails",
+    service5Time : "15 mins",
+    service5Price : "10",
+    service5Description : "",
+
+    service6 : "Nail Art - 2 nails",
+    service6Time : "10 mins",
+    service6Price : "5",
+    service6Description : "",
+
+    service7 : "Nail Art ",
+    service7Time : "",
+    service7Price : "7",
+    service7Description : "",
+
+    service8 : "Chrome",
+    service8Time : "",
+    service8Price : "8",
+    service8Description : "",
+
+    service9 : "Nail tip Design",
+    service9Time : "",
+    service9Price : "5",
+    service9Description : "",
+
+
+
+
+
+
+
   }; 
   
   const serviceList6 = {
     service1 : "Eyebrow Shape",
     service1Time : "15 mins",
-    service1Price : "10",
+    service1Price : "6",
     service1Description : "",
-  
+
     service2 : "Lip waxing",
     service2Time : "15 mins",
     service2Price : "5",
@@ -1280,7 +1530,7 @@ const images = {
   
     service3 : "Chin waxing",
     service3Time : "15 mins",
-    service3Price : "5",
+    service3Price : "8",
     service3Description : "",
   
     service4 : "Under arm waxing",
@@ -1330,7 +1580,7 @@ const images = {
   
     service13 : "Eyebrow tinting ",
     service13Time : "20 mins",
-    service13Price : "12",
+    service13Price : "8",
     service13Description : "",
   
     service14 : "Eyebrow THREADING",
