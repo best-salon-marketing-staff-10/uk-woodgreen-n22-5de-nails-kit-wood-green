@@ -769,9 +769,9 @@ const images = {
   serviceList5Image4 : "/images/nail-design-4.jpg",
   serviceList5Image5 : "/images/nail-design-5.jpg",
 
-  serviceList6Image1 : "/images/waxing-1.jpg",
-  serviceList6Image2 : "/images/waxing-2.jpg",
-  serviceList6Image3 : "/images/waxing-3.jpg",
+  serviceList6Image1 : "/images/waxing-1-1.jpg",
+  serviceList6Image2 : "/images/waxing-2-1.jpg",
+  serviceList6Image3 : "/images/waxing-3-1.jpg",
   serviceList6Image4 : "",
   serviceList6Image5 : "",
 
