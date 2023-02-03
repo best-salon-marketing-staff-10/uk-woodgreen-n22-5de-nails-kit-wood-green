@@ -114,7 +114,7 @@ const changedInfo = {
   //Website tiệm KO có dấu / ở cuối
   businessWebsite: "",
 
-  linkBookingMap: "https://www.google.com/maps/reserve/v/default?m=38MclWR4VvU&source=pa&gei=NNC_Y77iKsuQhwPRuJTgDA&sourceurl=https://www.google.com/maps/preview/place?authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!1m13!1s0x487b3be564ae0f33:0xefd0e510be92638a!3m8!1m3!1d207.73032196449594!2d-3.0628144!3d53.5561067!3m2!1i2133!2i1077!4f13.1!4m2!3d53.556167!4d-3.0627748!12m4!2m3!1i360!2i120!4i8!13m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!14m2!1sM9C_Y-CiMKjv4-EPyIia0AY!7e81!15m76!1m25!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m14!3b1!4b1!5b1!6b1!9b1!12b1!13b1!14b1!15b1!17b1!20b1!21b1!22b0!25b0!2b1!5m5!2b1!3b1!5b1!6b1!7b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m4!1m2!3b1!5b1!4b1!89b1!113b1!21m28!1m6!1m2!1i0!2i0!2m2!1i458!2i1077!1m6!1m2!1i2083!2i0!2m2!1i2133!2i1077!1m6!1m2!1i0!2i0!2m2!1i2133!2i20!1m6!1m2!1i0!2i1057!2m2!1i2133!2i1077!22m1!1e81!30m1!3b1!34m2!7b1!10b1!37i629!39sCC%2BNails%2B%2526%2BSpa%26q%3DCC%2BNails%2B%2526%2BSpa&hl=en-US",
+  linkBookingMap: "",
   linkBookingApp: "",
   linkToMap: "https://goo.gl/maps/XTJdjs8FKN1swLTH7",
 
@@ -131,9 +131,9 @@ const changedInfo = {
   iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.8286074853419!2d-1.7761284225136251!3d50.73370871760787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739f2541bbddd7%3A0xcadfdc1122a8e899!2sThe%20Nail%20Bar!5e0!3m2!1sen!2sus!4v1675048635909!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://i.ibb.co/dmKhmXW/og-image.jpg",
-  icon:"/icon2.png",
-  businessLogo:"/logo3.jpg",
+  ogImage:"https://the-nail-bar-christchurch.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  icon:"/icon.jpg",
+  businessLogo:"/logo.jpg",
 }
 
 const menu = {
@@ -734,7 +734,7 @@ const images = {
 
   section6Image1 : "/images/nail-extension-2.jpg",
 
-  section7Image1 : "/images/nail-extension-3-1.jpg",
+  section7Image1 : "/images/nail-extension-3.jpg",
   section7Image2 : "/images/nail-extension-4.jpg",
 
   LocationImage1 : "/images/nail-extension-11.jpg",

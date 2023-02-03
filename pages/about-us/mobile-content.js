@@ -21,17 +21,17 @@ export default function MobileContent(){
                 <div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
                             </div>
                         </Carousel.Item>

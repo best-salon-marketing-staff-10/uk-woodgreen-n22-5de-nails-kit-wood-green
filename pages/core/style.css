@@ -1065,4 +1065,9 @@
     font-size: 20px;
   }
 
-  
+  /*Phần ảnh carousel của trang About us
+  */
+  .desktop-about-us-carousel-image,
+  .carousel-image-1{
+    display: none;
+  }

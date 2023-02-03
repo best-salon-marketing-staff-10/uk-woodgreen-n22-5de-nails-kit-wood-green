@@ -21,17 +21,17 @@ export default function TabletContent(){
                 <div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage1Alt} src={images.tabletAboutUsImage1} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage2Alt} src={images.tabletAboutUsImage2} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image">
+                            <div className="carousel-image-1">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage3Alt} src={images.tabletAboutUsImage3} />
                             </div>
                         </Carousel.Item>

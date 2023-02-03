@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "the-nail-bar-christchurch",
+    "site": "thenailbarchristchurch",
     "public": "out",
     "ignore": [
       "firebase.json",
