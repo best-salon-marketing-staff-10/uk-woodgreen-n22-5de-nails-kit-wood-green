@@ -185,7 +185,6 @@ export default function Service3PriceList(){
                             </span>
                         </div>
                     </div>
-                    
                     <div className="price-list-details-services-container">
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">

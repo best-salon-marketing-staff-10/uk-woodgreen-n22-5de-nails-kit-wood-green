@@ -60,22 +60,22 @@ serviceList
   */
 const businessOpeningTimeInput = {
   //Thời gian làm việc của tiệm
-  monOpeningTime : "09:00",
+  monOpeningTime : "09:30",
   monClosingTime : "18:30",
 
-  tueOpeningTime : "09:00",
+  tueOpeningTime : "09:30",
   tueClosingTime : "18:30",
 
-  wedOpeningTime : "09:00",
+  wedOpeningTime : "09:30",
   wedClosingTime : "18:30",
 
-  thuOpeningTime : "09:00",
+  thuOpeningTime : "09:30",
   thuClosingTime : "18:30",
 
-  friOpeningTime : "09:00",
+  friOpeningTime : "09:30",
   friClosingTime : "18:30",
 
-  satOpeningTime : "09:00",
+  satOpeningTime : "09:30",
   satClosingTime : "18:30",
 
   sunOpeningTime : "",
@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "",
 
   linkBookingMap: "",
-  linkBookingApp: "",
+  linkBookingApp: "https://bit.ly/3JHC0iQ",
   linkToMap: "https://goo.gl/maps/XTJdjs8FKN1swLTH7",
 
   
@@ -336,7 +336,7 @@ const processedInfo = {
   callBusiness: `tel:${changedInfo.businessPhoneNumber}`,
 
   //Link booking thực sự của tiệm sửa ở đây
-  businessBookingLink: changedInfo.linkBookingMap,
+  businessBookingLink: changedInfo.linkBookingApp,
 
   //offer.js
   offerTitle : "Our Offers and Benefits",
@@ -956,7 +956,7 @@ const images = {
   
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "30",
+    service24Price : "35",
     service24Description : "",
   
     service25 : "BIAB buider gel Infill",
@@ -1116,7 +1116,7 @@ const images = {
 
     service56 : "Take off and Redone BIAB",
     service56Time : "60 mins",
-    service56Price : "35",
+    service56Price : "38",
     service56Description : "",
 
     service57 : "Take off and Renew Acrylic Powder with Shellac",
@@ -1130,7 +1130,7 @@ const images = {
     service58Description : "",
 
     service59 : "Gel Powder Fullset without Polish",
-    service59Time : "45 mins",
+    service59Time : "35 mins",
     service59Price : "35",
     service59Description : "",
 
@@ -1193,7 +1193,7 @@ const images = {
     service71Price : "38",
     service71Description : "",
 
-    service72 : "Take off Acrylic + Builder gel",
+    service72 : "Take off Acrylic + BIAB gel",
     service72Time : "60 mins",
     service72Price : "43",
     service72Description : "",
@@ -1203,7 +1203,7 @@ const images = {
     service73Price : "8",
     service73Description : "",
 
-    service74 : "Take off Builder Gel",
+    service74 : "Take off BIAB Gel",
     service74Time : "20 mins",
     service74Price : "8",
     service74Description : "",
@@ -1244,7 +1244,7 @@ const images = {
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
     service4Price : "40",
-    service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
+    service4Description : "Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
@@ -1261,7 +1261,7 @@ const images = {
     service7Price : "25",
     service7Description : "",
  
-    service8 : "Take off shellac",
+    service8 : "Take off shellac and Redone Newset",
     service8Time : "20 mins",
     service8Price : "28",
     service8Description : "Just take off shellac",
@@ -1276,15 +1276,10 @@ const images = {
     service10Price : "20",
     service10Description : "",
 
-    service11 : "Matte top coat",
-    service11Time : "10 mins",
-    service11Price : "3",
-    service11Description : "",
-
-     service12 : "Builder gel",
-     service12Time : "45 mins",
-     service12Price : "35",
-     service12Description :"",
+     service11 : "",
+     service11Time : "45 mins",
+     service11Price : "35",
+     service11Description :"",
 
   };
   
@@ -1415,16 +1410,16 @@ const images = {
     service25Description: "",
  
     service26 : "Pedicure without Polish",
-    service26Time : "45 mins",
+    service26Time : "30 mins",
     service26Price : "30",
     service26Description : "",
    
-    service27 : "Manicure Take off and Redone Fullset Gel Polish",
+    service27 : "Take Off Shellac Colour + Manicure + New Shellac Colour",
     service27Time : "45 mins",
     service27Price : "32",
     service27Description : "",
 
-    service28 : "Pedicure Take off and Redone Fullset Gel Polish",
+    service28 : "Take Off Shellac Colour + Pedicure + New Shellac Colour",
     service28Time : "60 mins",
     service28Price : "42",
     service28Description : "",
@@ -1508,6 +1503,11 @@ const images = {
     service9Time : "",
     service9Price : "5",
     service9Description : "",
+
+    service10 : "Matte top coat",
+    service10Time : "",
+    service10Price : "3",
+    service10Description : "",
 
 
 
