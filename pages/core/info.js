@@ -155,7 +155,7 @@ const serviceCategory = {
   //Danh sách các dịch vụ của tiệm
   serviceCategory1:"Nail extensions",
   serviceCategory2:"Gel nails / Shellac nails",
-  serviceCategory3:"Manicure / Pedicure",
+  serviceCategory3:"Regular",
   serviceCategory4:"Hair Wash massage with NuSkin",
   serviceCategory5:"Nail design",
   serviceCategory6:"Waxing",
@@ -979,13 +979,13 @@ const images = {
     service28Price : "5",
     service28Description : "",
 
-    service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
+    service29 : "Take off Acrylic and Redone with normal nail polish",
     service29Time : "1 hr",
     service29Price : "40",
     service29Description : "",
 
-    service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
-    service30Time : "1 hr",
+    service30 : "Take off Acrylic and Redone with Shellac",
+    service30Time : "45 mins",
     service30Price : "47",
     service30Description : "",
 
@@ -1115,7 +1115,7 @@ const images = {
     service55Description : "",
 
     service56 : "Take off and Redone BIAB",
-    service56Time : "60 mins",
+    service56Time : "35 mins",
     service56Price : "38",
     service56Description : "",
 
@@ -1125,7 +1125,7 @@ const images = {
     service57Description : "",
 
     service58 : "Acrylic Fullset without Polish",
-    service58Time : "45 mins",
+    service58Time : "35 mins",
     service58Price : "32",
     service58Description : "",
 
@@ -1144,27 +1144,27 @@ const images = {
     service61Price : "37",
     service61Description : "",
 
-    service62 : "Take off Gel Powder and Redone Gel Powder Fullset without Polish",
-    service62Time : "60 mins",
-    service62Price : "40",
+    service62 : "Take off Gel Powder and Redone Fullset without Polish",
+    service62Time : "50 mins",
+    service62Price : "40", 
  
-    service63 : "Take off Gel Powder and Redone Gel Powder Fullset with Polish",
-    service63Time : "60 mins",
+    service63 : "Take off Gel Powder and Redone with Polish",
+    service63Time : "50 mins",
     service63Price : "43",
     service63Description : "",
 
-    service64 : "Take off Gel Powder and Redone Gel Powder Fullset with Shellac",
+    service64 : "Take off Gel Powder and Redone with Shellac",
     service64Time : "60 mins",
     service64Price : "50",
     service64Description : "",
 
     service65 : "Acrylic Infill without Polish",
-    service65Time : "45 mins",
+    service65Time : "35 mins",
     service65Price : "22",
     service65Description : "",
 
     service66 : "Gel Powder Infill without Polish",
-    service66Time : "45 mins",
+    service66Time : "35 mins",
     service66Price : "25",
     service66Description : "",
 
@@ -1178,13 +1178,13 @@ const images = {
     service68Price : "35",
     service68Description : "",
 
-    service69 : "Full Set Permenent white tip",
-    service69Time : "45 mins",
+    service69 : "Full Set Permanent white tip",
+    service69Time : "35 mins",
     service69Price : "35",
     service69Description : "",
 
     service70 : "Take off Acrylic + Shellac",
-    service70Time : "60 mins",
+    service70Time : "40 mins",
     service70Price : "32",
     service70Description : "",
 
@@ -1194,22 +1194,22 @@ const images = {
     service71Description : "",
 
     service72 : "Take off Acrylic + BIAB gel",
-    service72Time : "60 mins",
+    service72Time : "45 mins",
     service72Price : "43",
     service72Description : "",
 
     service73 : "Take off Gel Polish",
-    service73Time : "20 mins",
+    service73Time : "10 mins",
     service73Price : "8",
     service73Description : "",
 
     service74 : "Take off BIAB Gel",
-    service74Time : "20 mins",
-    service74Price : "8",
+    service74Time : "15 mins",
+    service74Price : "10",
     service74Description : "",
 
     service75 : "Take off Acrylic",
-    service75Time : "15 mins",
+    service75Time : "12 mins",
     service75Price : "12",
     service75Description : "",
 
@@ -1226,8 +1226,8 @@ const images = {
     }; 
   
   const serviceList2 = {
-    service1 : "Nail shape with Shellac nails ",
-    service1Time : "30 mins",
+    service1 : "Nail shape with Shellac polish ",
+    service1Time : "25 mins",
     service1Price : "25",
     service1Description : "",
 
@@ -1237,12 +1237,12 @@ const images = {
     service2Description : "",
   
     service3 : "Manicure Shellac",
-    service3Time : "40 mins",
+    service3Time : "30 mins",
     service3Price : "30",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
 
     service4 : "Pedicure Shellac",
-    service4Time : "40 mins",
+    service4Time : "45 mins",
     service4Price : "40",
     service4Description : "Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
@@ -1262,7 +1262,7 @@ const images = {
     service7Description : "",
  
     service8 : "Take off shellac and Redone Newset",
-    service8Time : "20 mins",
+    service8Time : "30 mins",
     service8Price : "28",
     service8Description : "Just take off shellac",
 
