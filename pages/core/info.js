@@ -842,22 +842,22 @@ const images = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
     service1Price : "35",
-    service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+    service1Description : "Acrylics are a combination of a liquid monomer and a powder polymer that form a paste which is bonded to the natural nail. It's then given the desired shape, where it hardens in place to add strength, length, and thickness to the nail. Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
     service2Price : "25",
-    service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
+    service2Description : "Infills are done when the natural part of your nail starts to show at the bottom of your fake nail. Instead of having all your nails taken off and redone, you just have the natural part filled in with acrylic or gel powder. Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
     service3Price : "42",
-    service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
+    service3Description : "When you're getting a full set of acrylics, the nail technician will usually put on tips, (or use nail forms to achieve a more natural look) Each acrylic is then shaped as desired and painted with polish. Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
  
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
     service4Price : "32",
-    service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
+    service4Description : "Infills are done when the natural part of your nail starts to show at the bottom of your fake nail. Instead of having all your nails taken off and redone, you just have the natural part filled in with acrylic or gel powder. Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
@@ -1267,7 +1267,7 @@ const images = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
     service1Price : "20",
-    service1Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
+    service1Description : "A manicure is a cosmetic beauty treatment for the fingernails and hands performed at home or in a nail salon. A manicure consists of filing and shaping the free edge, pushing and clipping (with a cuticle pusher and cuticle nippers) any nonliving tissue (but limited to the cuticle and hangnails), treatments with various liquids, massage of the hand, and the application of fingernail polish. When the same is applied to the toenails and feet, the treatment is referred to as a pedicure. A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
 
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
