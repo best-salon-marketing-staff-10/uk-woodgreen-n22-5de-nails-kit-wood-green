@@ -95,43 +95,43 @@ const processedBusinessOpeningTime = {
 }
 
 const changedInfo = {
-  businessName: "The Nail Bar",
-  businessAddressLevel1: "69 High St",
-  businessAddressLevel2: "Christchurch",
-  businessAddressLevel3: "Bournemouth",
+  businessName: "Luxe-Tique Nails",
+  businessAddressLevel1: "5 Tadworth Parade",
+  businessAddressLevel2: "Hornchurch",
+  businessAddressLevel3: "Havering",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
-  businessAddressDivisionCode: "BCP",
+  businessAddressDivisionCode: "HAV",
 
-  businessPostCode: "BH23 1AS",
+  businessPostCode: "RM12 5AS",
   
 
-  businessPhoneNumber: "+447877889900",
+  businessPhoneNumber: "+447915270700",
 
   //Website tiệm KO có dấu / ở cuối
   businessWebsite: "",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/3JHC0iQ",
-  linkToMap: "https://goo.gl/maps/XTJdjs8FKN1swLTH7",
+  linkBookingApp: "",
+  linkToMap: "https://goo.gl/maps/9YUPvdSjFHmBjUYi9",
 
   
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải  
-  geoLatitude: 50.7337416093408,
-  geoLongitude: -1.7761649676105957,
+  geoLatitude: 51.549510560612475,
+  geoLongitude: 0.19998898496291942,
 
   //Code xác minh của website trên Google Search
   metaGoogleSiteVerification: "",
 
-  //iframe map
-  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.8286074853419!2d-1.7761284225136251!3d50.73370871760787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739f2541bbddd7%3A0xcadfdc1122a8e899!2sThe%20Nail%20Bar!5e0!3m2!1sen!2sus!4v1675048635909!5m2!1sen!2sus",
+  //iframe map  
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.06389292264674!2d0.20001547177657159!3d51.54949033732267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8bbeb9db81cc1%3A0x6e23331a1d01e651!2sLuxe-Tique%20Nails!5e0!3m2!1sen!2sus!4v1678158975892!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://the-nail-bar-christchurch.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
+  ogImage:"",
   icon:"/icon.jpg",
   businessLogo:"/logo.jpg",
 }
@@ -435,8 +435,8 @@ const schemaInput = {
   schemaRatingValue: "",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.7337416093408,
-  schemaLongitude: -1.7761649676105957,
+  schemaGeoLatitude: 51.549510560612475, 
+  schemaLongitude: 0.19998898496291942,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -841,32 +841,32 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "35",
+    service1Price : "27",
     service1Description : "Acrylics are a combination of a liquid monomer and a powder polymer that form a paste which is bonded to the natural nail. It's then given the desired shape, where it hardens in place to add strength, length, and thickness to the nail. Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "25",
+    service2Price : "20",
     service2Description : "Infills are done when the natural part of your nail starts to show at the bottom of your fake nail. Instead of having all your nails taken off and redone, you just have the natural part filled in with acrylic or gel powder. Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "42",
+    service3Price : "33",
     service3Description : "When you're getting a full set of acrylics, the nail technician will usually put on tips, (or use nail forms to achieve a more natural look) Each acrylic is then shaped as desired and painted with polish. Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
- 
+
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "32",
+    service4Price : "25",
     service4Description : "Infills are done when the natural part of your nail starts to show at the bottom of your fake nail. Instead of having all your nails taken off and redone, you just have the natural part filled in with acrylic or gel powder. Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
-  
+
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "38",
+    service5Price : "30",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
-  
+ 
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "28",
+    service6Price : "27",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
@@ -881,17 +881,17 @@ const images = {
 
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "45",
+    service9Price : "35",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "35",
+    service10Price : "30",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service11 : "Full Set Colour Powder",
     service11Time : "45 mins",
-    service11Price : "30",
+    service11Price : "35",
     service11Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service12 : "Infill Colour Powder (Same Colour)",
@@ -906,14 +906,14 @@ const images = {
 
     service14 : "Acrylic Fullset on Feet with normal nail polish",
     service14Time : "45 mins",
-    service14Price : "30",
+    service14Price : "35",
     service14Description : "An acrylic extension on your toes is just the thing to give yourself a little extra pampering. Whether you just want to do something new for your nails or you’ve been looking for an excuse to treat yo-self. This could be a great option for you",
-  
+
     service15 : "Acrylic Infill on Feet with normal nail polish",
     service15Time : "45 mins",
     service15Price : "30",
     service15Description : "Our talented technicians will fill in the gaps of your previously applied acrylic nails on your feet finish with a smooth, gorgeous coat of normal nail polish. You'll leave feeling refreshed and confident with beautifully polished toes. So sit back, relax, and let us take care of you. You deserve a little self-care and pampering, lovely!",
-  
+
     service16 : "Acrylic Fullset on Feet with Shellac",
     service16Time : "1 hr",
     service16Price : "40",
@@ -956,7 +956,7 @@ const images = {
   
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "35",
+    service24Price : "30",
     service24Description : "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
   
     service25 : "BIAB buider gel Infill",
@@ -966,7 +966,7 @@ const images = {
 
     service26 : "Long nails extra",
     service26Time : "",
-    service26Price : "3",
+    service26Price : "5",
     service26Description : "Indulge in a pampering session as we expertly extend the length of your nails to give you that extra edge of confidence. With delicate and precise care, you'll leave our salon feeling absolutely gorgeous. Treat yourself to a little bit of luxury, and allow us to create a stunning set of nails that will have you feeling loved and appreciated.",
 
     service27 : "Single Toe Nails",
@@ -976,17 +976,17 @@ const images = {
 
     service28 : "Single nails repair",
     service28Time : "",
-    service28Price : "5",
+    service28Price : "3",
     service28Description : "Our talented technicians will expertly fix any imperfections, leaving your nails looking and feeling beautiful again. You deserve to feel confident and stylish with every step you take, and we are here to make sure that happens. ",
 
     service29 : "Take off Acrylic and Redone with normal nail polish",
     service29Time : "1 hr",
-    service29Price : "40",
+    service29Price : "32",
     service29Description : "Pamper yourself with a relaxing nail transformation that will leave you feeling refreshed and confident. Our skilled technicians will carefully remove any existing acrylic, followed by a revitalizing manicure. Finally, we will apply a stunning normal nail polish to give you a stunning and polished look. You deserve to love your nails, so come and experience the ultimate pampering session that will leave you feeling like a brand new woman!",
 
     service30 : "Take off Acrylic and Redone with Shellac",
     service30Time : "45 mins",
-    service30Price : "47",
+    service30Price : "38",
     service30Description : "Say goodbye to your old acrylic nails and hello to a stunning new look with the long-lasting, chip-resistant Shellac polish. With this service, you'll feel confident and beautiful with every step, while taking a break from the everyday hustle and bustle. Show yourself some love and treat your nails to the ultimate makeover. You deserve it!",
 
     service31 : "Take off Ombre and Redone Ombre Fullset",
@@ -1021,7 +1021,7 @@ const images = {
 
     service37 : "Take off and Redone Colour Powder",
     servicce37Time : "60 mins",
-    service37Price : "37",
+    service37Price : "40",
     service37Description : "The ultimate treat for your nails! Let us pamper you with a luxurious experience as we remove your old powder and replace it with a new and vibrant shade. Our experienced technicians will make sure your nails look stunning and feel great, making you fall in love with your own hands again. This service is perfect for those who want to switch up their nail game and add a pop of color to their daily routine. Trust us, with this service, you'll feel confident and beautiful, ready to take on the world with a new-found love for yourself!",
 
     service38 : "Full set Acrylic French Tip",
@@ -1069,7 +1069,7 @@ const images = {
 
     service47 : "Infill Colour Powder",
     service47Time : "45 mins",
-    service47Price : "25",
+    service47Price : "30",
     service47Description : "",
 
     service48 : "COMBO TAKE OFF GEL COLOUR & COMBO GEL MANICURE & GEL PEDICURE",
@@ -1124,7 +1124,7 @@ const images = {
 
     service60: "Gel Powder Fullset with Shellac",
     service60Time : "45 mins",
-    service60Price : "45",
+    service60Price : "35",
     service60Description : "Our talented technicians will carefully apply a gel powder fullset, followed by a glossy Shellac color of your choice. You will fall in love with the stunning results, and feel confident and beautiful with every glance at your hands. Allow yourself to be pampered and treated like royalty, as you indulge in a bit of self-care and show love to yourself. Give in to the temptation of beautiful, vibrant nails that will leave you feeling confident and stunning.",
 
     service61 : "Take off Acrylic and Redone Acrylic Fullset without Polish",
@@ -1136,15 +1136,15 @@ const images = {
     service62Time : "50 mins",
     service62Price : "40", 
     service62Description : "This service is perfect for women who want to maintain the beauty of their nails and feel confident with their appearance. The process is simple, convenient, and will leave you feeling refreshed and rejuvenated. Embrace the love for yourself with our Take off Gel Powder and Redone without Polish service and feel the difference in your nails and your confidence.",
- 
+
     service63 : "Take off Gel Powder and Redone with Polish",
     service63Time : "50 mins",
-    service63Price : "43",
+    service63Price : "35",
     service63Description : "Our talented technicians will carefully remove your old gel powder and transform your nails with a fresh new set. This service includes a beautiful polish of your choice to complete the look. You'll love the confidence boost that comes with perfectly styled nails. Indulge in a moment of self-care and love your nails again with this service.",
 
     service64 : "Take off Gel Powder and Redone with Shellac",
     service64Time : "60 mins",
-    service64Price : "50",
+    service64Price : "40",
     service64Description : "Our professional technicians will gently remove your gel powder and redo your manicure with a perfect finish using the latest Shellac technology. Trust us, you'll love the way your nails look and feel. Indulge in a little pampering and boost your confidence with a gorgeous manicure. Love yourself, love your nails!",
 
     service65 : "Acrylic Infill without Polish",
@@ -1159,12 +1159,12 @@ const images = {
 
     service67 : "Full Set Glitter Powder",
     service67Time : "45 mins",
-    service67Price : "45",
+    service67Price : "35",
     service67Description : "Treat yourself to a dazzling look with our nail salon service! Perfect for adding some sparkle to your life, our professional nail technicians will pamper you from start to finish, giving you a set of nails that will have you feeling confident and glamorous. With our feminine touch, we will bring out the best in you, making you feel pampered and adored. Whether you're looking to make a statement or just add a touch of glamour to your everyday look, our Full Set Glitter Powder is the perfect choice. So why wait? Book your appointment today and love your beautiful nails!",
 
     service68 : "Infill Glitter Powder",
     service68Time : "45 mins",
-    service68Price : "35",
+    service68Price : "30",
     service68Description : "Unleash your inner sparkle with our nails service. Perfect for adding a touch of glamour to your already fabulous look, our expert technicians will carefully infill your nails with the latest in glitter powder technology, giving you a stunning, attention-grabbing manicure that you'll absolutely adore. Embrace your feminine side and love the way you feel with our nails service.",
 
     service69 : "Full Set Permanent white tip",
@@ -1204,36 +1204,58 @@ const images = {
 
     service76 : "Gel Powder Infill with Shellac",
     service76Time : "45 mins",
-    service76Price : "35",
+    service76Price : "30",
     service76Description : "Say hello to a perfect set of nails that not only look gorgeous, but also last for weeks. Our professional technicians use only the finest products to make sure your nails are strong, healthy, and have an amazing shine. Indulge in a relaxing nail care session that leaves you feeling confident, refreshed and ready to take on the world.",
 
+    service77 : "Take off Glitter Powder and Redone a Newset",
+    service77Time : "60 mins",
+    service77Price : "40",
+    service77Description : "",
+
+    service78 : "Take off Full set (from)",
+    service78Time : "15 mins",
+    service78Price : "10",
+    service78Description : "",
+
+    service79 : "Acrylic two Big toes",
+    service79Time : "10 mins",
+    service79Price : "10",
+    service79Description : "",
+
+    service80 : " Take off & Redone extra",
+    service80Time : "10 mins",
+    service80Price : "5",
+    service80Description : "",
+
+
+    
 
     }; 
   
   const serviceList2 = {
     service1 : "Nail shape with Shellac polish",
     service1Time : "25 mins",
-    service1Price : "25",
+    service1Price : "20",
     service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
 
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "20",
+    service2Price : "22",
     service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
-  
+
     service3 : "Manicure Shellac",
     service3Time : "30 mins",
-    service3Price : "30",
+    service3Price : "25",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
 
     service4 : "Pedicure Shellac",
     service4Time : "45 mins",
-    service4Price : "40",
+    service4Price : "35",
     service4Description : "Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
-  
+ 
     service5 : "Gel Polish Manicure & Pedicure",
     service5Time : "1 hr 25 mins",
-    service5Price : "60",
+    service5Price : "55",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
   
     service6 : "Take off shellac and Redone Gel Polish on Hand",
@@ -1266,12 +1288,12 @@ const images = {
   const serviceList3 = {
     service1 : "Manicure with normal polish",
     service1Time : "30 mins",
-    service1Price : "20",
+    service1Price : "15",
     service1Description : "A manicure is a cosmetic beauty treatment for the fingernails and hands performed at home or in a nail salon. A manicure consists of filing and shaping the free edge, pushing and clipping (with a cuticle pusher and cuticle nippers) any nonliving tissue (but limited to the cuticle and hangnails), treatments with various liquids, massage of the hand, and the application of fingernail polish. When the same is applied to the toenails and feet, the treatment is referred to as a pedicure. A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
 
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "35",
+    service2Price : "27",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
   
     service3 : "Gel Colour Luxury Pedicure",
@@ -1281,7 +1303,7 @@ const images = {
 
     service4 : "Manicure & Pedicure with normal polish",
     service4Time : "1 hr 15 mins",
-    service4Price : "45",
+    service4Price : "40",
     service4Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
  
     service5 : "Men's Manicure & Pedicure",
@@ -1444,9 +1466,9 @@ const images = {
     service1Price : "5",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
 
-    service2 : "Diamond Crystal x10",
+    service2 : "Diamond Crystal ",
     service2Time : "",
-    service2Price : "3",
+    service2Price : "5",
     service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
     service3 : "3D nail art (from)",
@@ -1476,7 +1498,7 @@ const images = {
 
     service8 : "Chrome",
     service8Time : "",
-    service8Price : "8",
+    service8Price : "5",
     service8Description : "Our skilled technicians will expertly apply a layer of chrome finish to give your nails a metallic shine that will have everyone envious. From classic silver to bold and brilliant gold, we have a range of chrome colors to choose from. Embrace your feminine side and pamper yourself with a touch of glamour with Chrome Nails. Get ready to turn heads and feel confident in your skin with this chic and sophisticated manicure. Your nails deserve the best, come and visit us today!",
 
     service9 : "Nail tip Design",
@@ -1489,6 +1511,20 @@ const images = {
     service10Price : "3",
     service10Description : "Let your nails speak volumes with a smooth and elegant matte finish. Experience a luxurious transformation as you fall in love with the stylish and chic look that our top coat provides. Pamper yourself and embrace the beauty of simplicity, with our expert technicians, who will cater to all your nail needs.",
 
+    service11 : "White tips",
+    service11Time : "",
+    service11Price : "5",
+    service11Description : "",
+
+    service12 : "Marble",
+    service12Time : "",
+    service12Price : "5",
+    service12Description : "",
+
+    service13 : "Children's Nails paint",
+    service13Time : "10 mins",
+    service13Price : "8",
+    service13Description : "",
 
 
 
