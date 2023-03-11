@@ -132,8 +132,8 @@ const changedInfo = {
 
   // Các ảnh của tiệm
   ogImage:"",
-  icon:"/icon.jpg",
-  businessLogo:"/logo.jpg",
+  icon:"/icon-1.jpg",
+  businessLogo:"/logo-1.jpg",
 }
 
 const menu = {
@@ -375,26 +375,26 @@ const schemaInput = {
   schemaPostalCode: changedInfo.businessPostCode,
   schemaAddressCountry: changedInfo.businessGeoRegionCode,
 
-  schemaImage1: "/images/nail-extension-1.jpg",
-  schemaImage2: "/images/nail-extension-2.jpg",
-  schemaImage3: "/images/nail-extension-3.jpg",
-  schemaImage4: "/images/nail-extension-4.jpg",
-  schemaImage5: "/images/nail-extension-5.jpg",
-  schemaImage6: "/images/gel-nails-shellac-nails-1.jpg",
-  schemaImage7: "/images/gel-nails-shellac-nails-2.jpg",
-  schemaImage8: "/images/gel-nails-shellac-nails-3.jpg",
-  schemaImage9: "/images/gel-nails-shellac-nails-4.jpg",
-  schemaImage10: "/images/gel-nails-shellac-nails-5.jpg",
-  schemaImage11: "/images/nail-design-1.jpg",
-  schemaImage12: "/images/nail-design-2.jpg",
-  schemaImage13: "/images/nail-design-3.jpg",
-  schemaImage14: "/images/nail-design-4.jpg",
-  schemaImage15: "/images/nail-design-5.jpg",
-  schemaImage16: "/images/pedicure-1.jpg",
-  schemaImage17: "/images/pedicure-2.jpg",
-  schemaImage18: "/images/pedicure-3.jpg",
-  schemaImage19: "/images/pedicure-4.jpg",
-  schemaImage20: "/images/pedicure-5.jpg",
+  schemaImage1: "/images/nail-extension-1-1.jpg",
+  schemaImage2: "/images/nail-extension-2-1.jpg",
+  schemaImage3: "/images/nail-extension-3-1.jpg",
+  schemaImage4: "/images/nail-extension-4-1.jpg",
+  schemaImage5: "/images/nail-extension-5-1.jpg",
+  schemaImage6: "/images/gel-nails-shellac-nails-1-1.jpg",
+  schemaImage7: "/images/gel-nails-shellac-nails-2-1.jpg",
+  schemaImage8: "/images/gel-nails-shellac-nails-3-1.jpg",
+  schemaImage9: "/images/gel-nails-shellac-nails-4-1.jpg",
+  schemaImage10: "/images/gel-nails-shellac-nails-5-1.jpg",
+  schemaImage11: "/images/nail-design-1-1.jpg",
+  schemaImage12: "/images/nail-design-2-1.jpg",
+  schemaImage13: "/images/nail-design-3-1.jpg",
+  schemaImage14: "/images/nail-design-4-1.jpg",
+  schemaImage15: "/images/nail-design-5-1.jpg",
+  schemaImage16: "/images/pedicure-1-1.jpg",
+  schemaImage17: "/images/pedicure-2-1.jpg",
+  schemaImage18: "/images/pedicure-3-1.jpg",
+  schemaImage19: "/images/pedicure-4-1.jpg",
+  schemaImage20: "/images/pedicure-5-1.jpg",
 
 
   schemaTelephone: changedInfo.businessPhoneNumber,
@@ -595,23 +595,23 @@ const pageContent = {
   section4Heading : "The best " + seoKeyword.seoKeyword1,
 
   // nhan-manh-2.js
-  section5Heading : "DON'T LET DOWN YOUR NAILS",
-  section5Description : "For a flawless manicure and pedicure, visit us at " + changedInfo.businessName + ". We offer a variety of polish and acrylic options to suit everyone's needs. 😸💅",
+  section5Heading : "EXPERIENCE UNMATCHED NAIL CARE",
+  section5Description : "Step into our " + changedInfo.businessAddressLevel2 + " nail salon for a pampering nail care experience like no other. Our team of skilled technicians at " + changedInfo.businessName + " will help you select the best nail polish and acrylic options to meet your needs and preferences. 😊💅",
 
   // nhan-manh-3.js
   section6Heading : "OUR MISSION",
-  section6Description : "Going to the " + seoKeyword.seoKeyword1 + " is like a visit to your favorite person ever, who always makes you feel amazing no matter what. Visiting a " + seoKeyword.seoKeyword1 + " can have so many great side benefits: it can be a time to take care of yourself, a way to make you feel better about yourself, and an opportunity for you and your friends or family to chat with each other",
+  section6Description : "Our " + changedInfo.businessAddressLevel2 + " nail salon is more than just a place to get your nails done - it's a place to unwind and recharge. Let us help you feel your best with our wide range of nail care services and personalized attention. 😊💅",
 
 
   // nhan-manh-4.js
   section7Heading : "SERVICES",
-  section7Description : "Gorgeous nails are a great way to make a good first impression! Give your hands the love they deserve and call our " + seoKeyword.seoKeyword1 + " now for an appointment. We have a wide variety of colors for each occasion. We know what you want, and we’re here to give you amazing nails with our acrylic extensions and the best relaxation for your feet.",
+  section7Description : "Experience the ultimate in nail care and pampering at our " + changedInfo.businessAddressLevel2 + " salon. Our expert technicians will help you choose the perfect nail polish color or acrylic extension to match your style and preferences, leaving you with gorgeous nails and a renewed sense of confidence.",
 
   // nhan-manh-5.js
-  section8Heading : "ENJOYABLE & RELAXATION",
-  section8Description : "Getting your nails done should be enjoyable! At " + changedInfo.businessName +", our focus is to help you relax so you can enjoy the experience. It’s your day made for you. Our " + changedInfo.businessAddressLevel2  + " nail salon will make it fun and memorable for you with our wide selection of nail colors, our pink gowns, or by customizing your experience.⁣",
+  section8Heading : "UNWIND & INDULGE",
+  section8Description : "Getting your nails done should be a fun and memorable experience, and at " + changedInfo.businessName + ", we couldn't agree more! We believe that our " + changedInfo.businessAddressLevel2 + " nail salon is the perfect place to unwind and treat yourself to some much-needed pampering. Our skilled technicians will help you select the best nail polish and acrylic options to meet your needs and preferences, and we offer a wide range of colors to suit every occasion.⁣",
 
-  carouselHeading : "One of the best nails salon in " + changedInfo.businessAddressLevel2 + " here to serve you",
+  carouselHeading : "Transform your nails and feel your best with our top-notch nail salon services in  " + changedInfo.businessAddressLevel2,
 
   customerReviewHeading: "WHAT OUR CUSTOMERS SAY",
   customerReviewDescription: "",
@@ -631,20 +631,19 @@ const pageContent = {
   contentOurPolicyDescription5 : "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
 
   //service-1.js
-  serviceCategory1Description : "The nail extensions that you can get at our " + seoKeyword.seoKeyword1 + " are so beautiful! They are easy to put on, and they last for two whole weeks on average.  Our " + seoKeyword.seoKeyword1 + " was also built to be very comfy for customers. We hope you come see us soon!",
+  serviceCategory1Description : "Our " + changedInfo.businessAddressLevel2 + " nail salon offers a variety of nail extension services to enhance the length and beauty of your natural nails. We use high-quality products and skilled techniques to ensure a flawless and long-lasting result. Our experienced nail technicians can customize the length, shape, and color of your extensions to fit your unique style and preferences.",
     
   //service-2.js
-  serviceCategory2Description : "Your nails deserve the same attention as your hair, makeup, and wardrobe. That’s why we have Gel-polish manicures at our " + seoKeyword.seoKeyword1 + ". Our nail technicians are masters of the art of manicure and pedicure to transform your hands and feet into flawless works of art.",
+  serviceCategory2Description : "Our gel and shellac nails are perfect for those who want a longer-lasting alternative to regular polish, without the risk of chipping or peeling. Choose from a wide range of colors and designs to create the perfect look for any occasion. Come and visit us today to experience the best gel and shellac nails in " + changedInfo.businessAddressLevel2 + "!",
   
   //service-3.js
-  serviceCategory3Description : "Does a manicure or pedicure make you feel relaxed? The folks over at our " + seoKeyword.seoKeyword1 + " want you to feel pampered, and are here for your every nail and beauty need day or night. No matter your style, face challenge or nail desire, " + changedInfo.businessName + " has the perfect cure for you. Come in today for a manicure or pedicure.",
+  serviceCategory3Description : "Our manicure, pedicure, and nail shape and paint services are designed to make you feel pampered and beautiful. From perfectly shaped nails to vibrant colors, our experienced technicians are dedicated to delivering flawless results that exceed your expectations. We use only the highest quality products to ensure your nails remain strong, healthy, and beautiful. Treat yourself to an indulgent manicure or pedicure, and experience the luxurious relaxation and rejuvenation you deserve.",
   
   //service-4.js
   serviceCategory4Description : "When you’re treating yourself to a pampering appointment with us, you deserve good things! Our soothing & relaxing services have you feeling like a new person. Imagine feeling the heated water on your scalp while the shampoo scrubs away impurities. Imagine feeling more refreshed and relaxed than ever with our Indian head massage therapy.",
   
   //service-5.js
-  serviceCategory5Description : "Style your nails like celebrities! Learn about trending nail design and visit our salon for a manicure today! Smile to the world with bright and healthy-looking nails. " +
-  "Whatever design you want, we can do it for you. We are proud to be one of the " + seoKeyword.seoKeyword3 + " leading professional artists.",
+  serviceCategory5Description : "Step into our " + changedInfo.businessAddressLevel2 + " nail salon and let our team of experts bring your nail design dreams to life. With high-quality products and meticulous attention to detail, we guarantee that your nails will be the envy of all your friends. Come visit us and let us transform your nails into a work of art.",
   
   //service-6.js
   serviceCategory6Description : "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
@@ -718,44 +717,44 @@ const button = {
 
 const images = {
   //Ảnh ở Homepage carousel
-  mobileCarouselImage1 : "/images/mobile-nail-salon-happy-customer-1.jpg",
-  mobileCarouselImage2 : "/images/mobile-nail-salon-happy-customer-2.jpg",
-  mobileCarouselImage3 : "/images/mobile-nail-salon-happy-customer-3.jpg",
+  mobileCarouselImage1 : "/images/mobile-nail-salon-happy-customer-1-1.jpg",
+  mobileCarouselImage2 : "/images/mobile-nail-salon-happy-customer-2-1.jpg",
+  mobileCarouselImage3 : "/images/mobile-nail-salon-happy-customer-3-1.jpg",
 
-  tabletCarouselImage1 : "/images/tablet-nail-salon-happy-customer-1.jpg",
-  tabletCarouselImage2 : "/images/tablet-nail-salon-happy-customer-2.jpg",
-  tabletCarouselImage3 : "/images/tablet-nail-salon-happy-customer-3.jpg",
+  tabletCarouselImage1 : "/images/tablet-nail-salon-happy-customer-1-1.jpg",
+  tabletCarouselImage2 : "/images/tablet-nail-salon-happy-customer-2-1.jpg",
+  tabletCarouselImage3 : "/images/tablet-nail-salon-happy-customer-3-1.jpg",
 
-  desktopCarouselImage1 : "/images/desktop-nail-salon-happy-customer-1.jpg",
-  desktopCarouselImage2 : "/images/desktop-nail-salon-happy-customer-2.jpg",
-  desktopCarouselImage3 : "/images/desktop-nail-salon-happy-customer-3.jpg",
+  desktopCarouselImage1 : "/images/desktop-nail-salon-happy-customer-1-1.jpg",
+  desktopCarouselImage2 : "/images/desktop-nail-salon-happy-customer-2-1.jpg",
+  desktopCarouselImage3 : "/images/desktop-nail-salon-happy-customer-3-1.jpg",
       //Ảnh ở Homepage khi vuốt xuống
-  section5Image1 : "/images/nail-extension-1.jpg",
+  section5Image1 : "/images/nail-extension-1-1.jpg",
 
-  section6Image1 : "/images/nail-extension-2.jpg",
+  section6Image1 : "/images/nail-extension-2-1.jpg",
 
-  section7Image1 : "/images/nail-extension-3.jpg",
-  section7Image2 : "/images/nail-extension-4.jpg",
+  section7Image1 : "/images/nail-extension-3-1.jpg",
+  section7Image2 : "/images/nail-extension-4-1.jpg",
 
-  LocationImage1 : "/images/nail-extension-11.jpg",
+  LocationImage1 : "/images/nail-extension-11-1.jpg",
 
-  serviceList1Image1 : "/images/nail-extension-5.jpg",
-  serviceList1Image2 : "/images/nail-extension-6.jpg",
-  serviceList1Image3 : "/images/nail-extension-7.jpg",
-  serviceList1Image4 : "/images/nail-extension-8.jpg",
-  serviceList1Image5 : "/images/nail-extension-9.jpg",
+  serviceList1Image1 : "/images/nail-extension-5-1.jpg",
+  serviceList1Image2 : "/images/nail-extension-6-1.jpg",
+  serviceList1Image3 : "/images/nail-extension-7-1.jpg",
+  serviceList1Image4 : "/images/nail-extension-8-1.jpg",
+  serviceList1Image5 : "/images/nail-extension-9-1.jpg",
 
-  serviceList2Image1 : "/images/gel-nails-shellac-nails-1.jpg",
-  serviceList2Image2 : "/images/gel-nails-shellac-nails-2.jpg",
-  serviceList2Image3 : "/images/gel-nails-shellac-nails-3.jpg",
-  serviceList2Image4 : "/images/gel-nails-shellac-nails-4.jpg",
-  serviceList2Image5 : "/images/gel-nails-shellac-nails-5.jpg",
+  serviceList2Image1 : "/images/gel-nails-shellac-nails-1-1.jpg",
+  serviceList2Image2 : "/images/gel-nails-shellac-nails-2-1.jpg",
+  serviceList2Image3 : "/images/gel-nails-shellac-nails-3-1.jpg",
+  serviceList2Image4 : "/images/gel-nails-shellac-nails-4-1.jpg",
+  serviceList2Image5 : "/images/gel-nails-shellac-nails-5-1.jpg",
   
-  serviceList3Image1 : "/images/pedicure-1.jpg",
-  serviceList3Image2 : "/images/pedicure-2.jpg",
-  serviceList3Image3 : "/images/pedicure-3.jpg",
-  serviceList3Image4 : "/images/pedicure-4.jpg",
-  serviceList3Image5 : "/images/pedicure-5.jpg",
+  serviceList3Image1 : "/images/pedicure-1-1.jpg",
+  serviceList3Image2 : "/images/pedicure-2-1.jpg",
+  serviceList3Image3 : "/images/pedicure-3-1.jpg",
+  serviceList3Image4 : "/images/pedicure-4-1.jpg",
+  serviceList3Image5 : "/images/pedicure-5-1.jpg",
 
   serviceList4Image1 : "/images/hair-wash-1.jpg",
   serviceList4Image2 : "/images/hair-wash-2.jpg",
@@ -763,11 +762,11 @@ const images = {
   serviceList4Image4 : "/images/hair-wash-4.jpg",
   serviceList4Image5 : "/images/hair-wash-5.jpg",
 
-  serviceList5Image1 : "/images/nail-design-1.jpg",
-  serviceList5Image2 : "/images/nail-design-2.jpg",
-  serviceList5Image3 : "/images/nail-design-3.jpg",
-  serviceList5Image4 : "/images/nail-design-4.jpg",
-  serviceList5Image5 : "/images/nail-design-5.jpg",
+  serviceList5Image1 : "/images/nail-design-1-1.jpg",
+  serviceList5Image2 : "/images/nail-design-2-1.jpg",
+  serviceList5Image3 : "/images/nail-design-3-1.jpg",
+  serviceList5Image4 : "/images/nail-design-4-1.jpg",
+  serviceList5Image5 : "/images/nail-design-5-1.jpg",
 
   serviceList6Image1 : "/images/waxing-1-1.jpg",
   serviceList6Image2 : "/images/waxing-2-1.jpg",
@@ -795,14 +794,14 @@ const images = {
   desktopAboutUsImage2 : "/images/desktop-nail-salon-2.jpg",
   desktopAboutUsImage3 : "/images/desktop-nail-salon-3.jpg",
 
-  desktopAboutUsDongVienImage1 : "/images/nail-extension-15.jpg",
-  desktopAboutUsDongVienImage2 : "/images/nail-extension-16.jpg",
-  desktopAboutUsDongVienImage3 : "/images/nail-extension-17.jpg",
+  desktopAboutUsDongVienImage1 : "/images/nail-extension-15-1.jpg",
+  desktopAboutUsDongVienImage2 : "/images/nail-extension-16-1.jpg",
+  desktopAboutUsDongVienImage3 : "/images/nail-extension-17-1.jpg",
 
     //Ảnh cho phần động viên
-  section1Image1 : "/images/nail-extension-18.jpg",
-  section2Image1 : "/images/nail-extension-19.jpg",
-  section3Image1: "/images/nail-extension-20.jpg",
+  section1Image1 : "/images/nail-extension-18-1.jpg",
+  section2Image1 : "/images/nail-extension-19-1.jpg",
+  section3Image1: "/images/nail-extension-20-1.jpg",
 
   //Thanh Mobile Bottom Nav
   BottomNavButton1Icon : "/images/icons/icon-home.png",
@@ -1521,10 +1520,10 @@ const images = {
     service12Price : "5",
     service12Description : "",
 
-    service13 : "Children's Nails paint",
+    service13 : "Children's Nails paint (from)",
     service13Time : "10 mins",
     service13Price : "8",
-    service13Description : "",
+    service13Description : "Children need direct permission from their parents or guardians",
 
 
 
