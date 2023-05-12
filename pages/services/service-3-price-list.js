@@ -39,7 +39,7 @@ export default function Service3PriceList(){
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
                                 <h3 className="price-list-details-services-name">
-                                    {serviceList3.service2}
+                                    {serviceList3.service29}
                                 </h3>
                                 <span className="price-list-details-services-name-notice">
                                     
@@ -47,12 +47,12 @@ export default function Service3PriceList(){
                             </div>
                             <div className="price-list-details-services-time">
                                 <span className="price-list-details-services-time">
-                                    {serviceList3.service2Time}
+                                    {serviceList3.service29Time}
                                 </span>
                             </div>
                             <div className="price-list-details-services-description">
                                 <span className="price-list-details-services-description">
-                                    {serviceList3.service2Description}
+                                    {serviceList3.service29Description}
                                 </span>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ export default function Service3PriceList(){
                                 
                             </span>
                             <span className="price-list-details-services-price">
-                               £{serviceList3.service2Price}
+                               £{serviceList3.service29Price}
                             </span>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Service3PriceList(){
                         <div className="price-list-details-services-item">
                             <div className="price-list-details-services-name">
                                 <h3 className="price-list-details-services-name">
-                                    {serviceList3.service4}
+                                    {serviceList3.service21}
                                 </h3>
                                 <span className="price-list-details-services-name-notice">
                                     
@@ -77,12 +77,12 @@ export default function Service3PriceList(){
                             </div>
                             <div className="price-list-details-services-time">
                                 <span className="price-list-details-services-time">
-                                    {serviceList3.service4Time}
+                                    {serviceList3.service21Time}
                                 </span>
                             </div>
                             <div className="price-list-details-services-description">
                                 <span className="price-list-details-services-description">
-                                    {serviceList3.service4Description}
+                                    {serviceList3.service21Description}
                                 </span>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ export default function Service3PriceList(){
                                 
                             </span>
                             <span className="price-list-details-services-price">
-                               £{serviceList3.service4Price}
+                               £{serviceList3.service21Price}
                             </span>
                         </div>
                     </div>

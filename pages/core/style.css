@@ -65,7 +65,7 @@
     -ms-user-select: none;      
     user-select: none;   
   }
- 
+
 
     
   /*
@@ -1071,7 +1071,4 @@
 
   /*Phần ảnh carousel của trang About us
   */
-  .desktop-about-us-carousel-image,
-  .carousel-image-1{
-    display: none;
-  }
+ 

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "luxe-tique-nails-hornchurch",
+    "site": "nailskit",
     "public": "out",
     "ignore": [
       "firebase.json",
