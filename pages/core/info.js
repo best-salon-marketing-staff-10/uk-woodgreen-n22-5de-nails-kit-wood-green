@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/44LzfF4",
+  linkBookingApp: "https://bit.ly/3BzL57P",
   linkToMap: "https://goo.gl/maps/NmzozvTt9BuXNNhx8",
 
   
