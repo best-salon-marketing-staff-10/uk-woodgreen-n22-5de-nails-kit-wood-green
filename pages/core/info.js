@@ -105,6 +105,7 @@ const changedInfo = {
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
   businessAddressDivisionCode: "ENG",
+  businessLanguage: "en",
 
   businessPostCode: "N22 5DE",
   
@@ -355,6 +356,9 @@ const headerInput = {
   metaGeoPosition : changedInfo.geoLatitude + ", " + changedInfo.geoLongitude,
   metaGeoPlaceName : changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
+  
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
   
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
