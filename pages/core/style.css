@@ -123,7 +123,7 @@
   .service-content-description{
     color: #8A94A6;
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     margin-bottom: 50px;
     letter-spacing: 1px;
@@ -153,7 +153,7 @@
   .price-list-details-services-name{
     color: #8A94A6;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 21px;
     margin: auto;
     margin-top: 5px;
   }
@@ -701,7 +701,7 @@
     /*Phần description của động viên
     */
     .dong-vien-description{
-      font-size: 20px;
+      font-size: 21px;
     }
   
   /*Phần Nhấn Mạnh 1
@@ -714,7 +714,7 @@
       text-align: center;
       padding-top: 3px;
       padding-bottom: 3px;
-      font-size: 20px;
+      font-size: 21px;
     }
   /*Riêng Phần background của Nhấn Mạnh 2 
   */
@@ -763,7 +763,7 @@
     .nhan-manh-content-description{
       font-family: Noto Sans;
       margin-bottom: 15px;
-      font-size: 20px;
+      font-size: 21px;
     }
   /*Phần Nhấn Mạnh 4
   */
@@ -806,7 +806,7 @@
     }
     .nhan-manh-4-content-description{
       font-family: Noto Sans;
-      font-size: 20px;
+      font-size: 21px;
       margin-bottom: 25px;
     }
     .nhan-manh-4-content-1-wrapper{
@@ -867,7 +867,7 @@
       text-align: center;
       margin: 10px;
       line-height: 1.6;
-      font-size: 20px;
+      font-size: 21px;
       font-family: Noto Sans;
     }
   /*Phần TimeSchedule Thời gian làm việc của tiệm
@@ -892,7 +892,7 @@
       text-align: center;
       margin: 10px;
       line-height: 1.6;
-      font-size: 20px;
+      font-size: 21px;
       font-family: Noto Sans;
     }
   /*Phần Offer của tiệm
@@ -928,12 +928,11 @@
       margin-top: 30px;
     }
     .offers-description{
-      
       margin: 10px;
       margin-bottom: 100px;
       color: #8A94A6;
       line-height: 1.6;
-      font-size: 20px;
+      font-size: 21px;
       letter-spacing: 1px;
     }
     .offers-divider{
@@ -971,7 +970,7 @@
       margin: 10px;
       color: #8A94A6;
       line-height: 1.6;
-      font-size: 20px;
+      font-size: 21px;
       font-style: italic;
       letter-spacing: 1px;
     }
@@ -992,7 +991,7 @@
       margin-bottom: 20px;
     }
     .content-heading-h2{
-      font-size: 20px;
+      font-size: 21px;
       font-weight: 500;
     }
     .content-description-link-a{
@@ -1018,7 +1017,7 @@
     .footer-navigation-item{
       color: #424A59;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 21px;
       margin-top: 20px;
       text-decoration: none;
     }
@@ -1048,7 +1047,7 @@
       margin-bottom: 10px;
       color: #96A0AF;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 21px;
       text-decoration: none;
     } 
   /*Phần Our Story, chủ yếu dùng trong trang About
@@ -1066,7 +1065,7 @@
     font-weight: 500;
     margin-bottom: 50px;
     line-height: 2;
-    font-size: 20px;
+    font-size: 21px;
   }
 
   /*Phần ảnh carousel của trang About us

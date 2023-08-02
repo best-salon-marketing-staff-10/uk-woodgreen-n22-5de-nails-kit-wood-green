@@ -121,7 +121,7 @@ const changedInfo = {
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải  
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải   
   geoLatitude:  51.59833337893772,
   geoLongitude: -0.09386808974864203,
 
@@ -349,7 +349,7 @@ const processedInfo = {
 }
 
 const headerInput = {
-  headerTitle: "The best " + seoKeyword.seoKeyword1 + " - " + changedInfo.businessName,
+  headerTitle: "The best " + seoKeyword.seoKeyword1 + "," + changedInfo.businessAddressLevel3 + " - " + changedInfo.businessName,
   metaDescription : "Best " + seoKeyword.seoKeyword1 + ". " + "Friendly staff and excellent service. Treat yourself or enjoy with friends and family",
   relIcon: changedInfo.icon,
   relCanonical: changedInfo.businessWebsite,
@@ -369,7 +369,7 @@ const headerInput = {
 }
 
 
-//Cần sửa trong mục này
+//Cần sửa trong mục này     
 const schemaInput = {
   schemaType: "NailSalon",
   schemaName: changedInfo.businessName,
@@ -434,13 +434,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "",
-  //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "",
+  schemaPersonReviewAuthorName: "Emma Smith",
+  //Xem điểm review trung bình của tiệm là bao nhiêu  
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 51.549510560612475, 
-  schemaLongitude: 0.19998898496291942,
+  schemaGeoLatitude: 51.59833337893772, 
+  schemaLongitude: -0.09386808974864203,
 
   schemaUrl: changedInfo.businessWebsite,
 
@@ -584,7 +584,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
+  section1Heading: "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
@@ -1495,7 +1495,7 @@ const images = {
     service2 : "Diamond Crystal ",
     service2Time : "",
     service2Price : "5",
-    service2Description : "Allow us to pamper your nails with an extra sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
+    service2Description : "Allow us to pamper your nails with an extrsa sparkle and shine. The diamond-like crystals will leave your nails looking stunning and unique, sure to make you feel confident and beautiful. Embrace your feminine side and love the skin you're in with this elegant and sophisticated addition to your nails",
 
     service3 : "3D nail art (from)",
     service3Time : "",
